@@ -28,31 +28,31 @@ Follow this [guide](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Deb
 # VSCode
 Run the below commands to install helpful extensions:
 
-code --install-extension aaron-bond.better-comments
-code --install-extension akamud.vscode-theme-onedark
-code --install-extension christian-kohler.path-intellisense
-code --install-extension cschlosser.doxdocgen
-code --install-extension DavidAnson.vscode-markdownlint
-code --install-extension eamodio.gitlens
-code --install-extension hbenl.vscode-test-explorer
-code --install-extension IronGeek.vscode-env
-code --install-extension jeff-hykin.better-cpp-syntax
-code --install-extension matepek.vscode-catch2-test-adapter
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-python.python
-code --install-extension ms-vscode-remote.remote-containers
-code --install-extension ms-vscode-remote.remote-ssh
-code --install-extension ms-vscode-remote.remote-ssh-edit
-code --install-extension ms-vscode-remote.remote-wsl
-code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-code --install-extension ms-vscode.cmake-tools
-code --install-extension ms-vscode.cpptools
-code --install-extension ms-vscode.test-adapter-converter
-code --install-extension ms-vscode.vs-keybindings
-code --install-extension PKief.material-icon-theme
-code --install-extension redhat.vscode-xml
-code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension twxs.cmake
-code --install-extension usernamehw.errorlens
-code --install-extension yzhang.markdown-all-in-one
+	code --install-extension aaron-bond.better-comments
+	code --install-extension akamud.vscode-theme-onedark
+	code --install-extension christian-kohler.path-intellisense
+	code --install-extension cschlosser.doxdocgen
+	code --install-extension DavidAnson.vscode-markdownlint
+	code --install-extension eamodio.gitlens
+	code --install-extension hbenl.vscode-test-explorer
+	code --install-extension IronGeek.vscode-env
+	code --install-extension jeff-hykin.better-cpp-syntax
+	code --install-extension matepek.vscode-catch2-test-adapter
+	code --install-extension ms-azuretools.vscode-docker
+	code --install-extension ms-python.python
+	code --install-extension ms-vscode-remote.remote-containers
+	code --install-extension ms-vscode-remote.remote-ssh
+	code --install-extension ms-vscode-remote.remote-ssh-edit
+	code --install-extension ms-vscode-remote.remote-wsl
+	code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+	code --install-extension ms-vscode.cmake-tools
+	code --install-extension ms-vscode.cpptools
+	code --install-extension ms-vscode.test-adapter-converter
+	code --install-extension ms-vscode.vs-keybindings
+	code --install-extension PKief.material-icon-theme
+	code --install-extension redhat.vscode-xml
+	code --install-extension streetsidesoftware.code-spell-checker
+	code --install-extension twxs.cmake
+	code --install-extension usernamehw.errorlens
+	code --install-extension yzhang.markdown-all-in-one
 
