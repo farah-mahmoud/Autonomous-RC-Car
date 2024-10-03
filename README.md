@@ -16,9 +16,8 @@ The project involves several innovative features including SLAM (Simultaneous Lo
 - **Simulation Tools:** Gazebo and RViz to test and visualize the system in a controlled environment. 
 - **Closed-Loop System:** Uses feedback from sensors for speed control, direction monitoring, and ensuring smooth navigation.
 
-![Gazebo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.clearpathrobotics.com%2Fassets%2Fguides%2Fkinetic%2Fwarthog%2FWarthogSimulation.html&psig=AOvVaw0Vdquyjedyd5CmpanaHXhJ&ust=1728077455802000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIC0lqyU84gDFQAAAAAdAAAAABAE)
-
-![object detection](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.augmentedstartups.com%2Fblog%2Fhow-to-implement-object-detection-using-deep-learning-a-step-by-step-guide&psig=AOvVaw0Xo9IUBbRfjsS8XIHtTDNI&ust=1728077535988000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDK4c-U84gDFQAAAAAdAAAAABAE)
+![Gazebo](https://www.clearpathrobotics.com/assets/guides/kinetic/warthog/_images/warthog_gazebo.png)
+![object detection](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/1446e76-f181-6047-4e73-8d8ba3c6a50e_object_detection_1.webp)
 
 # About the team **Big Hero 6** 
 
