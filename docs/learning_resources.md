@@ -23,7 +23,7 @@ Watch this [video](https://www.youtube.com/watch?v=rF--wOD4H8I) about **MAKE**.
 ## Launch Files
 Watch this [video](https://www.youtube.com/watch?v=MiLDsw1RHV4&t=116s) about **Launch Files**.  
 
-
+---
 
 # Control
 
@@ -76,6 +76,7 @@ During the first 5 days, the team will focus on researching and planning the imp
 ### 2- Second 5 Days (Implementation)
 The second phase of the project involves the actual implementation of the algorithms you studied during the first 5 days. This is the hands-on part where you'll apply your research and put your knowledge to work.  
 
+---
 
 # Perception
 Watch this [video](https://www.coursera.org/learn/computer-vision-basics) about **Computer Vision Basics**.
@@ -87,6 +88,8 @@ Watch this [video](https://www.youtube.com/watch?v=yvfI4p6Wyvk) about **Lane Det
 Watch this [video](https://www.youtube.com/watch?v=yqkISICHH-U) about **Tensorflow Object Detection in 5 Hours with Python**.
 
 Watch this [video](https://www.youtube.com/watch?v=vGr8Bg2Fda8) **From Depth Maps to Point Clouds: A Hands-On Tutorial with Open3D in Python**.  
+
+---
 
 # Motion Planning Learning Phase
 
