@@ -1,4 +1,4 @@
-# SLAM Learning Phase
+# 1. SLAM Learning Phase
 
 We will be learning all about *SLAM*.
 
@@ -25,7 +25,7 @@ Watch this [video](https://www.youtube.com/watch?v=MiLDsw1RHV4&t=116s) about **L
 
 ---
 
-# Control
+# 2. Control
 
 
 ## Main Course
@@ -78,7 +78,7 @@ The second phase of the project involves the actual implementation of the algori
 
 ---
 
-# Perception
+# 3. Perception
 Watch this [video](https://www.coursera.org/learn/computer-vision-basics) about **Computer Vision Basics**.
 
 Watch this [video](https://www.youtube.com/watch?v=1L0TKZQcUtA) about **Deep Learning Models for self-driving cars**.
@@ -91,7 +91,7 @@ Watch this [video](https://www.youtube.com/watch?v=vGr8Bg2Fda8) **From Depth Map
 
 ---
 
-# Motion Planning Learning Phase
+# 4. Motion Planning Learning Phase
 
 We will be learning all about **Motion Planning**.
 
