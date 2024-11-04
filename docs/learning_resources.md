@@ -25,7 +25,13 @@ Watch this [video](https://www.youtube.com/watch?v=MiLDsw1RHV4&t=116s) about **L
 
 ---
 
-# 2. Control
+# 2. Gazebo Simulation & Robot Modeling
+
+Watch this [video](https://www.youtube.com/playlist?list=PLK0b4e05LnzbsYJ5WH-S5td2aclJqpDYo) about **Gazebo Simulations**
+Watch this [video](https://www.youtube.com/playlist?list=PLK0b4e05LnzYqEgKmTSgHewdsaTAoK6sJ) about **Robot Modeling**
+
+---
+# 3. Control
 
 
 ## Main Course
@@ -77,20 +83,6 @@ During the first 5 days, the team will focus on researching and planning the imp
 The second phase of the project involves the actual implementation of the algorithms you studied during the first 5 days. This is the hands-on part where you'll apply your research and put your knowledge to work.  
 
 ---
-
-# 3. Perception
-Watch this [video](https://www.coursera.org/learn/computer-vision-basics) about **Computer Vision Basics**.
-
-Watch this [video](https://www.youtube.com/watch?v=1L0TKZQcUtA) about **Deep Learning Models for self-driving cars**.
-
-Watch this [video](https://www.youtube.com/watch?v=yvfI4p6Wyvk) about **Lane Detection Basic idea**.
-
-Watch this [video](https://www.youtube.com/watch?v=yqkISICHH-U) about **Tensorflow Object Detection in 5 Hours with Python**.
-
-Watch this [video](https://www.youtube.com/watch?v=vGr8Bg2Fda8) **From Depth Maps to Point Clouds: A Hands-On Tutorial with Open3D in Python**.  
-
----
-
 # 4. Motion Planning Learning Phase
 
 We will be learning all about **Motion Planning**.
@@ -150,6 +142,21 @@ You can view lecture videos [here](https://youtube.com/playlist?list=PLUl4u3cNGP
 ## Reinforcement Learning (optional)
 
 Watch this [Series](https://youtube.com/playlist?list=PLaAAx-iIm7OloDTSgRL13FsdX2XwJh-U4&si=6bigQVFFYxsE3Cu7)
+
+---
+# 5. Perception
+Watch this [video](https://www.coursera.org/learn/computer-vision-basics) about **Computer Vision Basics**.
+
+Watch this [video](https://www.youtube.com/watch?v=1L0TKZQcUtA) about **Deep Learning Models for self-driving cars**.
+
+Watch this [video](https://www.youtube.com/watch?v=yvfI4p6Wyvk) about **Lane Detection Basic idea**.
+
+Watch this [video](https://www.youtube.com/watch?v=yqkISICHH-U) about **Tensorflow Object Detection in 5 Hours with Python**.
+
+Watch this [video](https://www.youtube.com/watch?v=vGr8Bg2Fda8) **From Depth Maps to Point Clouds: A Hands-On Tutorial with Open3D in Python**.  
+
+---
+
 
 # FAQs:
 ## (When you start utilizing path-planning algorithms + coding in ROS, it is easy to get overwhelmed. We’ve all been there, and this is a compilation of all the confusing questions you might be asking)
