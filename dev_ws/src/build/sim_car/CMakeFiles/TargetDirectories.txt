@@ -1,9 +1,0 @@
-/home/farah/farah/dev_ws/src/build/sim_car/CMakeFiles/uninstall.dir
-/home/farah/farah/dev_ws/src/build/sim_car/CMakeFiles/sim_car_uninstall.dir
-/home/farah/farah/dev_ws/src/build/sim_car/CMakeFiles/test.dir
-/home/farah/farah/dev_ws/src/build/sim_car/CMakeFiles/edit_cache.dir
-/home/farah/farah/dev_ws/src/build/sim_car/CMakeFiles/rebuild_cache.dir
-/home/farah/farah/dev_ws/src/build/sim_car/CMakeFiles/list_install_components.dir
-/home/farah/farah/dev_ws/src/build/sim_car/CMakeFiles/install.dir
-/home/farah/farah/dev_ws/src/build/sim_car/CMakeFiles/install/local.dir
-/home/farah/farah/dev_ws/src/build/sim_car/CMakeFiles/install/strip.dir

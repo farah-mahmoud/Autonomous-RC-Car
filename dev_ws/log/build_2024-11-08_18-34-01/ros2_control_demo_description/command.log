@@ -1,3 +1,0 @@
-Invoking command in '/home/farah/farah/dev_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/ros2_control_demo_description
-Invoked command in '/home/farah/farah/dev_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/ros2_control_demo_description
-Invoking command in '/home/farah/farah/dev_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/ros2_control_demo_description -- -j8 -l8

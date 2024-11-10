@@ -1,2 +1,0 @@
-[0.249s] Invoking command in '/home/farah/farah/dev_ws/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/sim_car -- -j8 -l8
-[0.467s] Invoked command in '/home/farah/farah/dev_ws/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/sim_car -- -j8 -l8

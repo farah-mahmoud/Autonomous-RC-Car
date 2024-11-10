@@ -1,1 +1,0 @@
-/home/farah/farah/dev_ws/src/build/nav2_line_following_controller/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

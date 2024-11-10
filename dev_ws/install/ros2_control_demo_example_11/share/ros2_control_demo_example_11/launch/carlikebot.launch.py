@@ -1,1 +1,0 @@
-/home/farah/farah/dev_ws/src/example_11/bringup/launch/carlikebot.launch.py

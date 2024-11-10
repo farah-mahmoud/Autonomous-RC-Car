@@ -1,1 +1,0 @@
-/home/farah/farah/dev_ws/src/example_11/description/launch/view_robot.launch.py

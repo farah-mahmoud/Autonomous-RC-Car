@@ -1,1 +1,0 @@
-/home/farah/farah/dev_ws/src/sim_car/car_description/scripts/spawn_bot.py

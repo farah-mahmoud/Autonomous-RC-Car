@@ -1,1 +1,0 @@
-/home/farah/farah/dev_ws/src/build/zinger_description/ament_cmake_core/zinger_descriptionConfig.cmake

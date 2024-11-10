@@ -1,1 +1,0 @@
-/home/farah/farah/dev_ws/src/ros2_acker/src/race_it/launch/rsp.launch.py

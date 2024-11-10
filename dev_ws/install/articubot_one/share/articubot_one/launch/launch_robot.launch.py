@@ -1,1 +1,0 @@
-/home/farah/farah/dev_ws/src/articubot_one/launch/launch_robot.launch.py

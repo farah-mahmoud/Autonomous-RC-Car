@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/farah/farah/dev_ws/build/nav2_line_following_controller/libnav2_line_following_controller.so" "TARGETS" "nav2_line_following_controller" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

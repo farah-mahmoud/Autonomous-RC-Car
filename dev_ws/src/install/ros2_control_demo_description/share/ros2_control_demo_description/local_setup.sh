@@ -1,1 +1,0 @@
-/home/farah/farah/dev_ws/src/build/ros2_control_demo_description/ament_cmake_environment_hooks/local_setup.sh

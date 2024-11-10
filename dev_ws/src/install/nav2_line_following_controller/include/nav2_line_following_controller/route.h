@@ -1,1 +1,0 @@
-/home/farah/farah/dev_ws/src/nav2_line_following_controller/include/nav2_line_following_controller/route.h

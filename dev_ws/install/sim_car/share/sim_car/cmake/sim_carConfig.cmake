@@ -1,1 +1,0 @@
-/home/farah/farah/dev_ws/build/sim_car/ament_cmake_core/sim_carConfig.cmake
