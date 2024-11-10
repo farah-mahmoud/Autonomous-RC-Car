@@ -1,0 +1,70 @@
+[0.048s] Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description
+[1.103s] -- The C compiler identification is GNU 11.4.0
+[1.103s] -- The CXX compiler identification is GNU 11.4.0
+[1.103s] -- Detecting C compiler ABI info
+[1.103s] -- Detecting C compiler ABI info - done
+[1.103s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.104s] -- Detecting C compile features
+[1.104s] -- Detecting C compile features - done
+[1.104s] -- Detecting CXX compiler ABI info
+[1.104s] -- Detecting CXX compiler ABI info - done
+[1.104s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.104s] -- Detecting CXX compile features
+[1.105s] -- Detecting CXX compile features - done
+[1.105s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.251s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.409s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.663s] -- Configuring done
+[1.663s] -- Generating done
+[1.665s] -- Build files have been written to: /home/farah/farah/dev_ws/src/build/ros2_control_demo_description
+[1.696s] Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description
+[1.697s] Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/ros2_control_demo_description -- -j8 -l8
+[1.794s] Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/ros2_control_demo_description -- -j8 -l8
+[1.868s] Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/ros2_control_demo_description
+[1.883s] -- Install configuration: ""
+[1.883s] -- Execute custom install script
+[1.883s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+[1.902s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+[1.924s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+[1.940s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[1.980s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[1.999s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[2.017s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[2.067s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro
+[2.105s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro
+[2.118s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz
+[2.142s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz
+[2.159s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+[2.184s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+[2.203s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+[2.243s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+[2.259s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+[2.287s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+[2.303s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+[2.334s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+[2.357s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+[2.389s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+[2.412s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+[2.421s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+[2.435s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+[2.457s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+[2.470s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+[2.490s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+[2.512s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+[2.532s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+[2.547s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[2.562s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[2.581s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[2.602s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[2.621s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[2.636s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[2.660s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[2.678s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[2.700s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[2.720s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[2.745s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[2.764s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[2.783s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[2.796s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[2.817s] -- Symlinking: /home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[2.844s] Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/ros2_control_demo_description

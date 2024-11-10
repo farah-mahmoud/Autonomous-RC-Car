@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing serial_motor.egg-info/PKG-INFO
+writing dependency_links to serial_motor.egg-info/dependency_links.txt
+writing entry points to serial_motor.egg-info/entry_points.txt
+writing requirements to serial_motor.egg-info/requires.txt
+writing top-level names to serial_motor.egg-info/top_level.txt
+reading manifest file 'serial_motor.egg-info/SOURCES.txt'
+writing manifest file 'serial_motor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial-motor.egg-link (link to .)
+Installing number_publisher script to /home/farah/farah/dev_ws/install/serial_motor/lib/serial_motor
+Installing serial_test script to /home/farah/farah/dev_ws/install/serial_motor/lib/serial_motor
+
+Installed /home/farah/farah/dev_ws/build/serial_motor
+running symlink_data

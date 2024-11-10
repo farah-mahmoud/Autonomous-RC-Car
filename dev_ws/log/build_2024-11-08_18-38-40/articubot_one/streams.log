@@ -1,0 +1,2 @@
+[0.024s] Invoking command in '/home/farah/farah/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/articubot_one -- -j8 -l8
+[0.475s] Invoked command in '/home/farah/farah/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/articubot_one -- -j8 -l8

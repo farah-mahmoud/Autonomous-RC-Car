@@ -1,0 +1,43 @@
+def callback(self, msg):
+    nums = msg.data.split()
+    if len(nums) == 2:
+        num1 = nums[0]
+        num2 = nums[1]
+        # Send the numbers to Arduino
+        self.serial_port.write(num1.encode())
+        self.serial_port.write(b' ')
+        self.serial_port.write(num2.encode())#!/usr/bin/env python3
+
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+import serial
+
+class ArduinoNode(Node):
+    def __init__(self):
+        super().__init__('arduino_node')
+        self.serial_port = serial.Serial('/dev/ttyACM0', 9600) # Adjust the port and baud rate as necessary
+        self.subscription = self.create_subscription(
+            String,
+            'input_numbers',
+            self.callback,
+            10)
+        self.subscription
+
+    def callback(self, msg):
+        nums = msg.data.split()
+        if len(nums) == 2:
+            num1 = int(nums[0])
+            num2 = int(nums[1])
+            if num1 == 1 and num2 == 2:
+                self.serial_port.write(b'TOGGLE_LED')
+
+def main(args=None):
+    rclpy.init(args=args)
+    arduino_node = ArduinoNode()
+    rclpy.spin(arduino_node)
+    arduino_node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

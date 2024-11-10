@@ -1,0 +1,1 @@
+ament_cmake;rclcpp;rclpy;gazebo_ros_pkgs;ros2launch;nav2_simple_commander;nav2_bringup;nav2_common;tf_transformations;xacro;ament_lint_auto;ament_lint_common

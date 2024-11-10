@@ -1,0 +1,1 @@
+Invoking command in '/home/farah/farah/dev_ws/build/zinger_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/zinger_description -- -j8 -l8

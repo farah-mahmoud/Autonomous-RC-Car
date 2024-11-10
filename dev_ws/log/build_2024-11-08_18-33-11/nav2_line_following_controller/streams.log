@@ -1,0 +1,23 @@
+[0.023s] Invoking command in '/home/farah/farah/dev_ws/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/nav2_line_following_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/nav2_line_following_controller
+[0.494s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.494s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.494s] -- Configuring incomplete, errors occurred!
+[0.495s] See also "/home/farah/farah/dev_ws/build/nav2_line_following_controller/CMakeFiles/CMakeOutput.log".
+[0.495s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.495s]   By not providing "Findnav2_common.cmake" in CMAKE_MODULE_PATH this project
+[0.495s]   has asked CMake to find a package configuration file provided by
+[0.495s]   "nav2_common", but CMake did not find one.
+[0.495s] 
+[0.495s]   Could not find a package configuration file provided by "nav2_common" with
+[0.496s]   any of the following names:
+[0.496s] 
+[0.496s]     nav2_commonConfig.cmake
+[0.496s]     nav2_common-config.cmake
+[0.496s] 
+[0.496s]   Add the installation prefix of "nav2_common" to CMAKE_PREFIX_PATH or set
+[0.496s]   "nav2_common_DIR" to a directory containing one of the above files.  If
+[0.496s]   "nav2_common" provides a separate development package or SDK, be sure it
+[0.496s]   has been installed.
+[0.496s] 
+[0.496s] [0m
+[0.497s] Invoked command in '/home/farah/farah/dev_ws/build/nav2_line_following_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/nav2_line_following_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/nav2_line_following_controller

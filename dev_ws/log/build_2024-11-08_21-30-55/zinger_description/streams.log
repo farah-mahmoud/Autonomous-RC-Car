@@ -1,0 +1,30 @@
+[0.518s] Invoking command in '/home/farah/farah/dev_ws/build/zinger_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/zinger_description -- -j8 -l8
+[0.567s] Invoked command in '/home/farah/farah/dev_ws/build/zinger_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/zinger_description -- -j8 -l8
+[0.649s] Invoking command in '/home/farah/farah/dev_ws/build/zinger_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/build/zinger_description
+[0.663s] -- Install configuration: ""
+[0.664s] -- Execute custom install script
+[0.665s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/config/zinger.yaml
+[0.665s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/launch/base.launch.py
+[0.665s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/launch/controller_manager.launch.py
+[0.665s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/launch/controllers.launch.py
+[0.666s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/launch/robot_description.launch.py
+[0.666s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/urdf/base.xacro
+[0.666s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/urdf/gazebo.xacro
+[0.666s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/urdf/macros.xacro
+[0.666s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/urdf/materials.xacro
+[0.667s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/ament_index/resource_index/package_run_dependencies/zinger_description
+[0.667s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/ament_index/resource_index/parent_prefix_path/zinger_description
+[0.667s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/environment/ament_prefix_path.sh
+[0.667s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/environment/ament_prefix_path.dsv
+[0.668s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/environment/path.sh
+[0.668s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/environment/path.dsv
+[0.668s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/local_setup.bash
+[0.668s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/local_setup.sh
+[0.668s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/local_setup.zsh
+[0.668s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/local_setup.dsv
+[0.668s] -- Symlinking: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/package.dsv
+[0.670s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/ament_index/resource_index/packages/zinger_description
+[0.670s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/cmake/zinger_descriptionConfig.cmake
+[0.670s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/cmake/zinger_descriptionConfig-version.cmake
+[0.671s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/package.xml
+[0.708s] Invoked command in '/home/farah/farah/dev_ws/build/zinger_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/build/zinger_description

@@ -1,0 +1,81 @@
+[0.023s] Invoking command in '/home/farah/farah/dev_ws/build/ros2_control_demo_example_11': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:/path/to/nav2_common:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/example_11 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/ros2_control_demo_example_11
+[0.102s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting CXX compiler ABI info
+[0.183s] -- Detecting CXX compiler ABI info - done
+[0.190s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.190s] -- Detecting CXX compile features
+[0.191s] -- Detecting CXX compile features - done
+[0.193s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.428s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.462s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.466s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.474s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.721s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.724s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.758s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.796s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.800s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.820s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.824s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.834s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.848s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.859s] -- Looking for C++ include pthread.h
+[0.940s] -- Looking for C++ include pthread.h - found
+[0.940s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.017s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.018s] -- Found Threads: TRUE  
+[1.092s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.068s] -- Configuring done
+[2.104s] -- Generating done
+[2.107s] -- Build files have been written to: /home/farah/farah/dev_ws/build/ros2_control_demo_example_11
+[2.125s] Invoked command in '/home/farah/farah/dev_ws/build/ros2_control_demo_example_11' returned '0': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:/path/to/nav2_common:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/example_11 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/ros2_control_demo_example_11
+[2.127s] Invoking command in '/home/farah/farah/dev_ws/build/ros2_control_demo_example_11': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:/path/to/nav2_common:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/ros2_control_demo_example_11 -- -j8 -l8
+[2.171s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_11.dir/hardware/carlikebot_system.cpp.o[0m
+[5.887s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_11.so[0m
+[6.111s] [100%] Built target ros2_control_demo_example_11
+[6.123s] Invoked command in '/home/farah/farah/dev_ws/build/ros2_control_demo_example_11' returned '0': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:/path/to/nav2_common:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/ros2_control_demo_example_11 -- -j8 -l8
+[6.145s] Invoking command in '/home/farah/farah/dev_ws/build/ros2_control_demo_example_11': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:/path/to/nav2_common:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/build/ros2_control_demo_example_11
+[6.157s] -- Install configuration: ""
+[6.157s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/ros2_control_demo_example_11.xml
+[6.157s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/include/ros2_control_demo_example_11
+[6.157s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/include/ros2_control_demo_example_11/ros2_control_demo_example_11
+[6.158s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/include/ros2_control_demo_example_11/ros2_control_demo_example_11/carlikebot_system.hpp
+[6.158s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/include/ros2_control_demo_example_11/ros2_control_demo_example_11/visibility_control.h
+[6.158s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/launch
+[6.158s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/launch/view_robot.launch.py
+[6.158s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/ros2_control
+[6.159s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/ros2_control/carlikebot.ros2_control.xacro
+[6.159s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/urdf
+[6.159s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/urdf/carlikebot.urdf.xacro
+[6.159s] -- Up-to-date: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/launch
+[6.159s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/launch/carlikebot.launch.py
+[6.160s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/config
+[6.160s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/config/carlikebot_controllers.yaml
+[6.160s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/lib/libros2_control_demo_example_11.so
+[6.162s] -- Set runtime path of "/home/farah/farah/dev_ws/install/ros2_control_demo_example_11/lib/libros2_control_demo_example_11.so" to ""
+[6.162s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/environment/library_path.sh
+[6.162s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/environment/library_path.dsv
+[6.163s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_11
+[6.163s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_11
+[6.163s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/environment/ament_prefix_path.sh
+[6.163s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/environment/ament_prefix_path.dsv
+[6.164s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/environment/path.sh
+[6.164s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/environment/path.dsv
+[6.164s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/local_setup.bash
+[6.164s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/local_setup.sh
+[6.165s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/local_setup.zsh
+[6.165s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/local_setup.dsv
+[6.165s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.dsv
+[6.166s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ament_index/resource_index/packages/ros2_control_demo_example_11
+[6.166s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_11
+[6.166s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/cmake/export_ros2_control_demo_example_11Export.cmake
+[6.167s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/cmake/export_ros2_control_demo_example_11Export-noconfig.cmake
+[6.167s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/cmake/ament_cmake_export_targets-extras.cmake
+[6.167s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.168s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/cmake/ros2_control_demo_example_11Config.cmake
+[6.168s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/cmake/ros2_control_demo_example_11Config-version.cmake
+[6.168s] -- Installing: /home/farah/farah/dev_ws/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.xml
+[6.174s] Invoked command in '/home/farah/farah/dev_ws/build/ros2_control_demo_example_11' returned '0': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/ros2_control_demo_description:/path/to/nav2_common:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/build/ros2_control_demo_example_11
