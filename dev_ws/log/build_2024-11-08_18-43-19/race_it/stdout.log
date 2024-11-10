@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/inertial.xacro
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/race_car.xacro
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/ros2_ack.xacro
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/temp_controllers/car.xacro
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/temp_controllers/gazebo_control_dd.xacro
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/temp_controllers/gazebo_control_steer.xacro
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/launch/rsp.launch.py
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/config/controller/my_controllers.yaml
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/config/mapper_params_online_async.yaml
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/config/rviz/urdf_config.rviz
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/ament_index/resource_index/package_run_dependencies/race_it
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/ament_index/resource_index/parent_prefix_path/race_it
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/environment/ament_prefix_path.sh
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/environment/ament_prefix_path.dsv
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/environment/path.sh
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/environment/path.dsv
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/local_setup.bash
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/local_setup.sh
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/local_setup.zsh
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/local_setup.dsv
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/package.dsv
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/ament_index/resource_index/packages/race_it
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/cmake/race_itConfig.cmake
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/cmake/race_itConfig-version.cmake
+-- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/package.xml

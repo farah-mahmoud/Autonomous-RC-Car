@@ -1,0 +1,3 @@
+[console_scripts]
+talker = temp_teleop.submit:main
+

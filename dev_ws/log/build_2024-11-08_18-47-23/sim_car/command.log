@@ -1,0 +1,6 @@
+Invoking command in '/home/farah/farah/dev_ws/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/sim_car/car_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/sim_car
+Invoked command in '/home/farah/farah/dev_ws/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/sim_car/car_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/sim_car
+Invoking command in '/home/farah/farah/dev_ws/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/sim_car -- -j8 -l8
+Invoked command in '/home/farah/farah/dev_ws/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/sim_car -- -j8 -l8
+Invoking command in '/home/farah/farah/dev_ws/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/build/sim_car
+Invoked command in '/home/farah/farah/dev_ws/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/build/sim_car

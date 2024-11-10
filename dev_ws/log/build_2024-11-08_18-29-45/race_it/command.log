@@ -1,0 +1,1 @@
+Invoking command in '/home/farah/farah/dev_ws/build/race_it': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/ros2_acker/src/race_it -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/race_it

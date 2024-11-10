@@ -1,0 +1,24 @@
+[0.023s] Invoking command in '/home/farah/farah/dev_ws/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/nav2_line_following_controller -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/nav2_line_following_controller
+[0.469s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.469s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.469s] -- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)
+[0.469s] -- Configuring incomplete, errors occurred!
+[0.469s] See also "/home/farah/farah/dev_ws/build/nav2_line_following_controller/CMakeFiles/CMakeOutput.log".
+[0.470s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[0.470s]   By not providing "Findnav2_core.cmake" in CMAKE_MODULE_PATH this project
+[0.470s]   has asked CMake to find a package configuration file provided by
+[0.470s]   "nav2_core", but CMake did not find one.
+[0.470s] 
+[0.470s]   Could not find a package configuration file provided by "nav2_core" with
+[0.470s]   any of the following names:
+[0.470s] 
+[0.470s]     nav2_coreConfig.cmake
+[0.470s]     nav2_core-config.cmake
+[0.470s] 
+[0.471s]   Add the installation prefix of "nav2_core" to CMAKE_PREFIX_PATH or set
+[0.471s]   "nav2_core_DIR" to a directory containing one of the above files.  If
+[0.471s]   "nav2_core" provides a separate development package or SDK, be sure it has
+[0.471s]   been installed.
+[0.471s] 
+[0.471s] [0m
+[0.473s] Invoked command in '/home/farah/farah/dev_ws/build/nav2_line_following_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/nav2_line_following_controller -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/nav2_line_following_controller

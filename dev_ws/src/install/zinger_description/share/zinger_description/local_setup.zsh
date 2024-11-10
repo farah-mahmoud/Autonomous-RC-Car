@@ -1,0 +1,1 @@
+/home/farah/farah/dev_ws/src/build/zinger_description/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,40 @@
+[1.966s] Invoking command in '/home/farah/farah/dev_ws/build/serial_motor': PYTHONPATH=/home/farah/farah/dev_ws/build/serial_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/farah/farah/dev_ws/build/serial_motor/build
+[2.408s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.408s]   warnings.warn(
+[2.467s] running develop
+[2.468s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.468s]   warnings.warn(
+[2.751s] Removing /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial-motor.egg-link (link to .)
+[2.868s] Invoked command in '/home/farah/farah/dev_ws/build/serial_motor' returned '0': PYTHONPATH=/home/farah/farah/dev_ws/build/serial_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/farah/farah/dev_ws/build/serial_motor/build
+[2.870s] Invoking command in '/home/farah/farah/dev_ws/src/serial_motor': PYTHONPATH=/home/farah/farah/dev_ws/build/serial_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_motor build --build-base /home/farah/farah/dev_ws/build/serial_motor/build install --record /home/farah/farah/dev_ws/build/serial_motor/install.log --install-scripts $base/lib/serial_motor --single-version-externally-managed install_data --force
+[3.196s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.196s]   warnings.warn(
+[3.213s] running egg_info
+[3.214s] writing ../../build/serial_motor/serial_motor.egg-info/PKG-INFO
+[3.214s] writing dependency_links to ../../build/serial_motor/serial_motor.egg-info/dependency_links.txt
+[3.215s] writing entry points to ../../build/serial_motor/serial_motor.egg-info/entry_points.txt
+[3.215s] writing requirements to ../../build/serial_motor/serial_motor.egg-info/requires.txt
+[3.215s] writing top-level names to ../../build/serial_motor/serial_motor.egg-info/top_level.txt
+[3.217s] reading manifest file '../../build/serial_motor/serial_motor.egg-info/SOURCES.txt'
+[3.218s] writing manifest file '../../build/serial_motor/serial_motor.egg-info/SOURCES.txt'
+[3.218s] running build
+[3.218s] running build_py
+[3.218s] running install
+[3.219s] running install_lib
+[3.221s] creating /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor
+[3.221s] copying /home/farah/farah/dev_ws/build/serial_motor/build/lib/serial_motor/serial_node_publisher.py -> /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor
+[3.221s] copying /home/farah/farah/dev_ws/build/serial_motor/build/lib/serial_motor/serial_node.py -> /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor
+[3.221s] copying /home/farah/farah/dev_ws/build/serial_motor/build/lib/serial_motor/__init__.py -> /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor
+[3.222s] byte-compiling /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor/serial_node_publisher.py to serial_node_publisher.cpython-310.pyc
+[3.223s] byte-compiling /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor/serial_node.py to serial_node.cpython-310.pyc
+[3.224s] byte-compiling /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor/__init__.py to __init__.cpython-310.pyc
+[3.224s] running install_data
+[3.224s] copying resource/serial_motor -> /home/farah/farah/dev_ws/install/serial_motor/share/ament_index/resource_index/packages
+[3.225s] copying package.xml -> /home/farah/farah/dev_ws/install/serial_motor/share/serial_motor
+[3.225s] running install_egg_info
+[3.236s] Copying ../../build/serial_motor/serial_motor.egg-info to /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor-0.0.0-py3.10.egg-info
+[3.236s] running install_scripts
+[3.263s] Installing number_publisher script to /home/farah/farah/dev_ws/install/serial_motor/lib/serial_motor
+[3.263s] Installing serial_test script to /home/farah/farah/dev_ws/install/serial_motor/lib/serial_motor
+[3.264s] writing list of installed files to '/home/farah/farah/dev_ws/build/serial_motor/install.log'
+[3.373s] Invoked command in '/home/farah/farah/dev_ws/src/serial_motor' returned '0': PYTHONPATH=/home/farah/farah/dev_ws/build/serial_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_motor build --build-base /home/farah/farah/dev_ws/build/serial_motor/build install --record /home/farah/farah/dev_ws/build/serial_motor/install.log --install-scripts $base/lib/serial_motor --single-version-externally-managed install_data --force

@@ -1,0 +1,30 @@
+running develop
+Removing /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial-motor.egg-link (link to .)
+running egg_info
+writing ../../build/serial_motor/serial_motor.egg-info/PKG-INFO
+writing dependency_links to ../../build/serial_motor/serial_motor.egg-info/dependency_links.txt
+writing entry points to ../../build/serial_motor/serial_motor.egg-info/entry_points.txt
+writing requirements to ../../build/serial_motor/serial_motor.egg-info/requires.txt
+writing top-level names to ../../build/serial_motor/serial_motor.egg-info/top_level.txt
+reading manifest file '../../build/serial_motor/serial_motor.egg-info/SOURCES.txt'
+writing manifest file '../../build/serial_motor/serial_motor.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor
+copying /home/farah/farah/dev_ws/build/serial_motor/build/lib/serial_motor/serial_node_publisher.py -> /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor
+copying /home/farah/farah/dev_ws/build/serial_motor/build/lib/serial_motor/serial_node.py -> /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor
+copying /home/farah/farah/dev_ws/build/serial_motor/build/lib/serial_motor/__init__.py -> /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor
+byte-compiling /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor/serial_node_publisher.py to serial_node_publisher.cpython-310.pyc
+byte-compiling /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor/serial_node.py to serial_node.cpython-310.pyc
+byte-compiling /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/serial_motor -> /home/farah/farah/dev_ws/install/serial_motor/share/ament_index/resource_index/packages
+copying package.xml -> /home/farah/farah/dev_ws/install/serial_motor/share/serial_motor
+running install_egg_info
+Copying ../../build/serial_motor/serial_motor.egg-info to /home/farah/farah/dev_ws/install/serial_motor/lib/python3.10/site-packages/serial_motor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing number_publisher script to /home/farah/farah/dev_ws/install/serial_motor/lib/serial_motor
+Installing serial_test script to /home/farah/farah/dev_ws/install/serial_motor/lib/serial_motor
+writing list of installed files to '/home/farah/farah/dev_ws/build/serial_motor/install.log'

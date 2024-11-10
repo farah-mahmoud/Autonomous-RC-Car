@@ -1,0 +1,19 @@
+[1.012s] Invoking command in '/home/farah/farah/dev_ws/build/temp_teleop': PYTHONPATH=/home/farah/farah/dev_ws/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/farah/farah/dev_ws/build/temp_teleop/build --no-deps symlink_data
+[1.260s] running develop
+[1.260s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.260s]   warnings.warn(
+[1.417s] running egg_info
+[1.419s] writing temp_teleop.egg-info/PKG-INFO
+[1.419s] writing dependency_links to temp_teleop.egg-info/dependency_links.txt
+[1.419s] writing entry points to temp_teleop.egg-info/entry_points.txt
+[1.419s] writing requirements to temp_teleop.egg-info/requires.txt
+[1.419s] writing top-level names to temp_teleop.egg-info/top_level.txt
+[1.420s] reading manifest file 'temp_teleop.egg-info/SOURCES.txt'
+[1.421s] writing manifest file 'temp_teleop.egg-info/SOURCES.txt'
+[1.422s] running build_ext
+[1.422s] Creating /home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages/temp-teleop.egg-link (link to .)
+[1.423s] Installing talker script to /home/farah/farah/dev_ws/install/temp_teleop/lib/temp_teleop
+[1.423s] 
+[1.424s] Installed /home/farah/farah/dev_ws/build/temp_teleop
+[1.424s] running symlink_data
+[1.462s] Invoked command in '/home/farah/farah/dev_ws/build/temp_teleop' returned '0': PYTHONPATH=/home/farah/farah/dev_ws/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/farah/farah/dev_ws/build/temp_teleop/build --no-deps symlink_data

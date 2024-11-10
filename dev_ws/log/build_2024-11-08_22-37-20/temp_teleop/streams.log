@@ -1,0 +1,33 @@
+[1.935s] Invoking command in '/home/farah/farah/dev_ws/build/temp_teleop': PYTHONPATH=/home/farah/farah/dev_ws/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/farah/farah/dev_ws/build/temp_teleop/build
+[2.462s] running develop
+[2.463s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.463s]   warnings.warn(
+[2.772s] Removing /home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages/temp-teleop.egg-link (link to .)
+[2.879s] Invoked command in '/home/farah/farah/dev_ws/build/temp_teleop' returned '0': PYTHONPATH=/home/farah/farah/dev_ws/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/farah/farah/dev_ws/build/temp_teleop/build
+[2.885s] Invoking command in '/home/farah/farah/dev_ws/src/ros2_acker/src/temp_teleop': PYTHONPATH=/home/farah/farah/dev_ws/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/temp_teleop build --build-base /home/farah/farah/dev_ws/build/temp_teleop/build install --record /home/farah/farah/dev_ws/build/temp_teleop/install.log --single-version-externally-managed install_data --force
+[3.347s] running egg_info
+[3.348s] writing ../../../../build/temp_teleop/temp_teleop.egg-info/PKG-INFO
+[3.349s] writing dependency_links to ../../../../build/temp_teleop/temp_teleop.egg-info/dependency_links.txt
+[3.349s] writing entry points to ../../../../build/temp_teleop/temp_teleop.egg-info/entry_points.txt
+[3.349s] writing requirements to ../../../../build/temp_teleop/temp_teleop.egg-info/requires.txt
+[3.349s] writing top-level names to ../../../../build/temp_teleop/temp_teleop.egg-info/top_level.txt
+[3.354s] reading manifest file '../../../../build/temp_teleop/temp_teleop.egg-info/SOURCES.txt'
+[3.355s] writing manifest file '../../../../build/temp_teleop/temp_teleop.egg-info/SOURCES.txt'
+[3.356s] running build
+[3.356s] running build_py
+[3.356s] running install
+[3.356s] running install_lib
+[3.357s] creating /home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages/temp_teleop
+[3.357s] copying /home/farah/farah/dev_ws/build/temp_teleop/build/lib/temp_teleop/__init__.py -> /home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages/temp_teleop
+[3.357s] copying /home/farah/farah/dev_ws/build/temp_teleop/build/lib/temp_teleop/submit.py -> /home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages/temp_teleop
+[3.358s] byte-compiling /home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages/temp_teleop/__init__.py to __init__.cpython-310.pyc
+[3.358s] byte-compiling /home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages/temp_teleop/submit.py to submit.cpython-310.pyc
+[3.359s] running install_data
+[3.359s] copying resource/temp_teleop -> /home/farah/farah/dev_ws/install/temp_teleop/share/ament_index/resource_index/packages
+[3.359s] copying package.xml -> /home/farah/farah/dev_ws/install/temp_teleop/share/temp_teleop
+[3.359s] running install_egg_info
+[3.362s] Copying ../../../../build/temp_teleop/temp_teleop.egg-info to /home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages/temp_teleop-0.0.0-py3.10.egg-info
+[3.362s] running install_scripts
+[3.391s] Installing talker script to /home/farah/farah/dev_ws/install/temp_teleop/lib/temp_teleop
+[3.392s] writing list of installed files to '/home/farah/farah/dev_ws/build/temp_teleop/install.log'
+[3.461s] Invoked command in '/home/farah/farah/dev_ws/src/ros2_acker/src/temp_teleop' returned '0': PYTHONPATH=/home/farah/farah/dev_ws/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/temp_teleop build --build-base /home/farah/farah/dev_ws/build/temp_teleop/build install --record /home/farah/farah/dev_ws/build/temp_teleop/install.log --single-version-externally-managed install_data --force

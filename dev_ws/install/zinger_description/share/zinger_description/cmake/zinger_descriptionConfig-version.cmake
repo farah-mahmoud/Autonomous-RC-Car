@@ -1,0 +1,1 @@
+/home/farah/farah/dev_ws/build/zinger_description/ament_cmake_core/zinger_descriptionConfig-version.cmake

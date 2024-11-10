@@ -1,0 +1,92 @@
+[0.045s] Invoking command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/nav2_line_following_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/nav2_line_following_controller
+[1.095s] -- The C compiler identification is GNU 11.4.0
+[1.095s] -- The CXX compiler identification is GNU 11.4.0
+[1.096s] -- Detecting C compiler ABI info
+[1.096s] -- Detecting C compiler ABI info - done
+[1.096s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.096s] -- Detecting C compile features
+[1.096s] -- Detecting C compile features - done
+[1.096s] -- Detecting CXX compiler ABI info
+[1.096s] -- Detecting CXX compiler ABI info - done
+[1.096s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.096s] -- Detecting CXX compile features
+[1.096s] -- Detecting CXX compile features - done
+[1.096s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.225s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.373s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.467s] -- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)
+[1.471s] -- Found nav2_core: 1.1.16 (/opt/ros/humble/share/nav2_core/cmake)
+[1.623s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.649s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.704s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.821s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.963s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.971s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.326s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.422s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.546s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.565s] -- Looking for pthread.h
+[2.774s] -- Looking for pthread.h - found
+[2.775s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.965s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.967s] -- Found Threads: TRUE  
+[3.792s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.792s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.986s] -- Setting build type to Release as none was specified.
+[4.090s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.103s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.298s] -- Configuring done
+[4.472s] -- Generating done
+[4.475s] -- Build files have been written to: /home/farah/farah/dev_ws/src/build/nav2_line_following_controller
+[4.518s] Invoked command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/nav2_line_following_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/nav2_line_following_controller
+[4.521s] Invoking command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/nav2_line_following_controller -- -j8 -l8
+[4.606s] [ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.607s] [ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.607s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_line_following_controller.dir/src/line_following_controller.cpp.o[0m
+[4.611s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_line_following_controller.dir/src/geometry.cpp.o[0m
+[6.590s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.689s] [ 38%] Built target gtest_main
+[17.677s] [ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[17.720s] [ 46%] Built target gtest
+[17.744s] [ 69%] [32mBuilding CXX object CMakeFiles/route_test.dir/src/geometry.cpp.o[0m
+[17.744s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_test.dir/src/geometry.cpp.o[0m
+[17.744s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_test.dir/src/geometry_test.cpp.o[0m
+[17.744s] [ 76%] [32mBuilding CXX object CMakeFiles/route_test.dir/src/route_test.cpp.o[0m
+[21.624s] [ 84%] [32m[1mLinking CXX executable geometry_test[0m
+[21.877s] [ 84%] Built target geometry_test
+[24.995s] [ 92%] [32m[1mLinking CXX shared library libnav2_line_following_controller.so[0m
+[25.683s] [ 92%] Built target nav2_line_following_controller
+[26.599s] [100%] [32m[1mLinking CXX executable route_test[0m
+[26.946s] [100%] Built target route_test
+[26.960s] Invoked command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/nav2_line_following_controller -- -j8 -l8
+[26.987s] Invoking command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/nav2_line_following_controller
+[26.995s] -- Install configuration: "Release"
+[26.995s] -- Execute custom install script
+[26.995s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/lib/libnav2_line_following_controller.so
+[27.003s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/include//nav2_line_following_controller/geometry.h
+[27.009s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/include//nav2_line_following_controller/line_following_controller.hpp
+[27.019s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/include//nav2_line_following_controller/route.h
+[27.032s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/library_path.sh
+[27.039s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/library_path.dsv
+[27.046s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller//nav2_line_following_controller.xml
+[27.054s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/ament_index/resource_index/package_run_dependencies/nav2_line_following_controller
+[27.064s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/ament_index/resource_index/parent_prefix_path/nav2_line_following_controller
+[27.072s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/ament_prefix_path.sh
+[27.079s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/ament_prefix_path.dsv
+[27.090s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/path.sh
+[27.097s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/path.dsv
+[27.107s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.bash
+[27.113s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.sh
+[27.122s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.zsh
+[27.133s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.dsv
+[27.141s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.dsv
+[27.147s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/ament_index/resource_index/packages/nav2_line_following_controller
+[27.156s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_line_following_controller
+[27.166s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.173s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[27.180s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.192s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/nav2_line_following_controllerConfig.cmake
+[27.199s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/nav2_line_following_controllerConfig-version.cmake
+[27.206s] -- Symlinking: /home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.xml
+[27.215s] Invoked command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/nav2_line_following_controller

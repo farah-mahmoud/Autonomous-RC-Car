@@ -1,0 +1,4 @@
+[console_scripts]
+number_publisher = serial_motor.serial_node_publisher:main
+serial_test = serial_motor.serial_node:main
+

@@ -1,0 +1,92 @@
+[0.455s] Invoking command in '/home/farah/farah/dev_ws/src/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/sim_car/car_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/sim_car
+[1.083s] -- The C compiler identification is GNU 11.4.0
+[1.083s] -- The CXX compiler identification is GNU 11.4.0
+[1.083s] -- Detecting C compiler ABI info
+[1.083s] -- Detecting C compiler ABI info - done
+[1.083s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.083s] -- Detecting C compile features
+[1.084s] -- Detecting C compile features - done
+[1.084s] -- Detecting CXX compiler ABI info
+[1.084s] -- Detecting CXX compiler ABI info - done
+[1.084s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.084s] -- Detecting CXX compile features
+[1.084s] -- Detecting CXX compile features - done
+[1.084s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.480s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.672s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.728s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.793s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.801s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.818s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.868s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.978s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.986s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.306s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.399s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.548s] -- Looking for pthread.h
+[2.715s] -- Looking for pthread.h - found
+[2.716s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.906s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.911s] -- Found Threads: TRUE  
+[3.113s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[3.117s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.333s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.336s] -- Added test 'lint_cmake' to check CMake code style
+[3.337s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.340s] -- Added test 'xmllint' to check XML markup files
+[3.344s] -- Configuring done
+[3.350s] -- Generating done
+[3.351s] -- Build files have been written to: /home/farah/farah/dev_ws/src/build/sim_car
+[3.399s] Invoked command in '/home/farah/farah/dev_ws/src/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/sim_car/car_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/sim_car
+[3.401s] Invoking command in '/home/farah/farah/dev_ws/src/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/sim_car -- -j8 -l8
+[3.471s] Invoked command in '/home/farah/farah/dev_ws/src/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/sim_car -- -j8 -l8
+[3.501s] Invoking command in '/home/farah/farah/dev_ws/src/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/sim_car
+[3.517s] -- Install configuration: ""
+[3.517s] -- Execute custom install script
+[3.517s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/lib/sim_car//convert_xacro.py
+[3.532s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/lib/sim_car//spawn_bot.py
+[3.553s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/lib/sim_car//sentry.py
+[3.564s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//launch/all.launch.py
+[3.581s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//launch/blue2.py
+[3.593s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//launch/blue_launch.py
+[3.604s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//launch/bringup.launch.py
+[3.624s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//launch/bringup.launch2.py
+[3.638s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//launch/spawn_car.launch.py
+[3.654s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//launch/spawn_red_crash.launch.py
+[3.671s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//launch/spawn_world.launch.py
+[3.685s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//config/nav2_params.yaml
+[3.704s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//config/red-crash.rviz
+[3.717s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//config/teleop_twist_joy.yaml
+[3.728s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//config/unused_blue_params.yaml
+[3.748s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//robot/car.urdf.xacro
+[3.759s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//robot/red_crash.urdf.xacro
+[3.773s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//worlds/empty.world
+[3.789s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//worlds/simple.world
+[3.802s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669268298.pgm
+[3.815s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669268298.yaml
+[3.834s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669312051.pgm
+[3.850s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669312051.yaml
+[3.866s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//scripts/convert_xacro.py
+[3.874s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//scripts/play.html
+[3.895s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//scripts/sentry.py
+[3.907s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//scripts/spawn_bot.py
+[3.923s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//params/intentionally_empty
+[3.935s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car//behavior_trees/navigate_w_replanning_time2.xml
+[3.949s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/ament_index/resource_index/package_run_dependencies/sim_car
+[3.961s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/ament_index/resource_index/parent_prefix_path/sim_car
+[3.972s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/environment/ament_prefix_path.sh
+[3.987s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/environment/ament_prefix_path.dsv
+[4.001s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/environment/path.sh
+[4.015s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/environment/path.dsv
+[4.030s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/local_setup.bash
+[4.042s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/local_setup.sh
+[4.052s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/local_setup.zsh
+[4.062s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/local_setup.dsv
+[4.071s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.dsv
+[4.081s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/ament_index/resource_index/packages/sim_car
+[4.095s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/cmake/sim_carConfig.cmake
+[4.102s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/cmake/sim_carConfig-version.cmake
+[4.111s] -- Symlinking: /home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.xml
+[4.128s] Invoked command in '/home/farah/farah/dev_ws/src/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/sim_car

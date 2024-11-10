@@ -1,0 +1,1 @@
+Invoking command in '/home/farah/farah/dev_ws/build/sim_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/sim_car/car_description -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/sim_car

@@ -1,0 +1,1 @@
+Invoking command in '/home/farah/farah/dev_ws/build/zinger_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/zinger_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/zinger_description

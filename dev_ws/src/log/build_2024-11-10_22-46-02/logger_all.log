@@ -1,0 +1,788 @@
+[0.279s] DEBUG:colcon:Command line arguments: ['/home/farah/.local/bin/colcon', 'build', '--symlink-install']
+[0.279s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fa7706f9120>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa7706fa1a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa7706fa1a0>>, mixin_verb=('build',))
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.623s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/farah/farah/dev_ws/src'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'ignore_ament_install'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'ros'
+[0.643s] DEBUG:colcon.colcon_core.package_identification:Package 'articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(example_11) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(example_11) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(example_11) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(example_11) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(example_11) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(example_11) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(example_11) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(example_11) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(example_11) by extension 'ros'
+[0.645s] DEBUG:colcon.colcon_core.package_identification:Package 'example_11' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_11'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(example_2) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(example_2) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(example_2) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(example_2) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(example_2) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(example_2) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(example_2) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(example_2) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(example_2) by extension 'ros'
+[0.647s] DEBUG:colcon.colcon_core.package_identification:Package 'example_2' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_2'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_line_following_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_line_following_controller) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_line_following_controller) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_line_following_controller) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_line_following_controller) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_line_following_controller) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_line_following_controller) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_line_following_controller) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_line_following_controller) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package 'nav2_line_following_controller' with type 'ros.ament_cmake' and name 'nav2_line_following_controller'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extension 'ros'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extensions ['cmake', 'python']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extension 'cmake'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extension 'python'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extensions ['python_setup_py']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker) by extension 'python_setup_py'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extension 'ros'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extensions ['cmake', 'python']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extension 'cmake'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extension 'python'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extensions ['python_setup_py']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src) by extension 'python_setup_py'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/race_it) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/race_it) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/race_it) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/race_it) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/race_it) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/race_it) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/race_it) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/race_it) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/race_it) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_acker/src/race_it' with type 'ros.ament_cmake' and name 'race_it'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/temp_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/temp_teleop) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/temp_teleop) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/temp_teleop) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/temp_teleop) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/temp_teleop) by extensions ['colcon_meta']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/temp_teleop) by extension 'colcon_meta'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/temp_teleop) by extensions ['ros']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_acker/src/temp_teleop) by extension 'ros'
+[0.654s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_acker/src/temp_teleop' with type 'ros.ament_python' and name 'temp_teleop'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_demo_description) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_demo_description) by extension 'ignore_ament_install'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_demo_description) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_demo_description) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_demo_description) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_demo_description) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_demo_description) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_demo_description) by extension 'ros'
+[0.655s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control_demo_description' with type 'ros.ament_cmake' and name 'ros2_control_demo_description'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor) by extension 'ignore_ament_install'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor) by extensions ['colcon_pkg']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor) by extension 'colcon_pkg'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor) by extensions ['colcon_meta']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor) by extension 'ros'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package 'serial_motor' with type 'ros.ament_python' and name 'serial_motor'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extension 'ignore_ament_install'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extensions ['colcon_pkg']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extension 'colcon_pkg'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extensions ['colcon_meta']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extension 'colcon_meta'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extensions ['ros']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extension 'ros'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extensions ['cmake', 'python']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extension 'cmake'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extension 'python'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extensions ['python_setup_py']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car) by extension 'python_setup_py'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_description) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_description) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_description) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_description) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_description) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_description) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_description) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_description) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_description) by extension 'ros'
+[0.658s] DEBUG:colcon.colcon_core.package_identification:Package 'sim_car/car_description' with type 'ros.ament_cmake' and name 'sim_car'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_gazebo_plugin) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/car_gazebo_plugin) ignored
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extension 'ros'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extensions ['cmake', 'python']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extension 'cmake'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extension 'python'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extensions ['python_setup_py']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/lxd) by extension 'python_setup_py'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extension 'ros'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extensions ['cmake', 'python']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extension 'cmake'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extension 'python'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extensions ['python_setup_py']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(sim_car/web) by extension 'python_setup_py'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(zinger_description) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(zinger_description) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(zinger_description) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(zinger_description) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(zinger_description) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(zinger_description) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(zinger_description) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(zinger_description) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(zinger_description) by extension 'ros'
+[0.661s] DEBUG:colcon.colcon_core.package_identification:Package 'zinger_description' with type 'ros.ament_cmake' and name 'zinger_description'
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.747s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.748s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.756s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/farah/farah/dev_ws/install
+[0.758s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 367 installed packages in /opt/ros/humble
+[0.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.821s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farah/farah/dev_ws/src/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farah/farah/dev_ws/src/install/articubot_one', 'merge_install': False, 'path': '/home/farah/farah/dev_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'nav2_line_following_controller' build argument 'cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'nav2_line_following_controller' build argument 'cmake_target' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'nav2_line_following_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'nav2_line_following_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'nav2_line_following_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'nav2_line_following_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'nav2_line_following_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'nav2_line_following_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'nav2_line_following_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_line_following_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller', 'merge_install': False, 'path': '/home/farah/farah/dev_ws/src/nav2_line_following_controller', 'symlink_install': True, 'test_result_base': None}
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'race_it' build argument 'cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'race_it' build argument 'cmake_target' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'race_it' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'race_it' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'race_it' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'race_it' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'race_it' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'race_it' build argument 'catkin_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'race_it' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'race_it' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farah/farah/dev_ws/src/build/race_it', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farah/farah/dev_ws/src/install/race_it', 'merge_install': False, 'path': '/home/farah/farah/dev_ws/src/ros2_acker/src/race_it', 'symlink_install': True, 'test_result_base': None}
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.823s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description', 'merge_install': False, 'path': '/home/farah/farah/dev_ws/src/ros2_control_demo_description', 'symlink_install': True, 'test_result_base': None}
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'serial_motor' build argument 'cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'serial_motor' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'serial_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'serial_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'serial_motor' build argument 'cmake_clean_first' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'serial_motor' build argument 'cmake_force_configure' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'serial_motor' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'serial_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'serial_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.823s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farah/farah/dev_ws/src/build/serial_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farah/farah/dev_ws/src/install/serial_motor', 'merge_install': False, 'path': '/home/farah/farah/dev_ws/src/serial_motor', 'symlink_install': True, 'test_result_base': None}
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'sim_car' build argument 'cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'sim_car' build argument 'cmake_target' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'sim_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'sim_car' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'sim_car' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'sim_car' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'sim_car' build argument 'ament_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'sim_car' build argument 'catkin_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'sim_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.824s] DEBUG:colcon.colcon_core.verb:Building package 'sim_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farah/farah/dev_ws/src/build/sim_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farah/farah/dev_ws/src/install/sim_car', 'merge_install': False, 'path': '/home/farah/farah/dev_ws/src/sim_car/car_description', 'symlink_install': True, 'test_result_base': None}
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'temp_teleop' build argument 'cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'temp_teleop' build argument 'cmake_target' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'temp_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'temp_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'temp_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'temp_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'temp_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'temp_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'temp_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.824s] DEBUG:colcon.colcon_core.verb:Building package 'temp_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farah/farah/dev_ws/src/build/temp_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farah/farah/dev_ws/src/install/temp_teleop', 'merge_install': False, 'path': '/home/farah/farah/dev_ws/src/ros2_acker/src/temp_teleop', 'symlink_install': True, 'test_result_base': None}
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zinger_description' build argument 'cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zinger_description' build argument 'cmake_target' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zinger_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zinger_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zinger_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zinger_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zinger_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zinger_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zinger_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.825s] DEBUG:colcon.colcon_core.verb:Building package 'zinger_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farah/farah/dev_ws/src/build/zinger_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farah/farah/dev_ws/src/install/zinger_description', 'merge_install': False, 'path': '/home/farah/farah/dev_ws/src/zinger_description', 'symlink_install': True, 'test_result_base': None}
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_11' build argument 'cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_11' build argument 'cmake_target' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_11' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_11' build argument 'cmake_clean_cache' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_11' build argument 'cmake_clean_first' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_11' build argument 'cmake_force_configure' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_11' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_11' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_11' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.825s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_11' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11', 'merge_install': False, 'path': '/home/farah/farah/dev_ws/src/example_11', 'symlink_install': True, 'test_result_base': None}
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_target' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.826s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2', 'merge_install': False, 'path': '/home/farah/farah/dev_ws/src/example_2', 'symlink_install': True, 'test_result_base': None}
+[0.826s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.827s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.827s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farah/farah/dev_ws/src/ros2_control_demo_description' with build type 'ament_cmake'
+[0.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farah/farah/dev_ws/src/ros2_control_demo_description'
+[0.833s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.833s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.834s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.837s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farah/farah/dev_ws/src/articubot_one' with build type 'ament_cmake'
+[0.837s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farah/farah/dev_ws/src/articubot_one'
+[0.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.840s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farah/farah/dev_ws/src/nav2_line_following_controller' with build type 'ament_cmake'
+[0.840s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farah/farah/dev_ws/src/nav2_line_following_controller'
+[0.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.844s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farah/farah/dev_ws/src/ros2_acker/src/race_it' with build type 'ament_cmake'
+[0.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farah/farah/dev_ws/src/ros2_acker/src/race_it'
+[0.845s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.849s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/farah/farah/dev_ws/src/serial_motor' with build type 'ament_python'
+[0.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor', 'ament_prefix_path')
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/hook/ament_prefix_path.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/hook/ament_prefix_path.dsv'
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/hook/ament_prefix_path.sh'
+[0.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.858s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farah/farah/dev_ws/src/sim_car/car_description' with build type 'ament_cmake'
+[0.859s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farah/farah/dev_ws/src/sim_car/car_description'
+[0.859s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.859s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.863s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/farah/farah/dev_ws/src/ros2_acker/src/temp_teleop' with build type 'ament_python'
+[0.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('temp_teleop', 'ament_prefix_path')
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/hook/ament_prefix_path.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/hook/ament_prefix_path.dsv'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/hook/ament_prefix_path.sh'
+[0.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.869s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farah/farah/dev_ws/src/zinger_description' with build type 'ament_cmake'
+[0.869s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farah/farah/dev_ws/src/zinger_description'
+[0.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description
+[0.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/articubot_one
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/nav2_line_following_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/nav2_line_following_controller
+[0.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/race_it': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/ros2_acker/src/race_it -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/race_it
+[1.302s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/farah/farah/dev_ws/src/serial_motor'
+[1.303s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.303s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/sim_car/car_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/sim_car
+[1.896s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/farah/farah/dev_ws/src/ros2_acker/src/temp_teleop'
+[1.896s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/zinger_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/zinger_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/zinger_description
+[2.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description
+[2.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/ros2_control_demo_description -- -j8 -l8
+[2.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/race_it' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/ros2_acker/src/race_it -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/race_it
+[2.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/race_it': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/race_it -- -j8 -l8
+[2.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/articubot_one
+[2.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/articubot_one -- -j8 -l8
+[2.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/ros2_control_demo_description -- -j8 -l8
+[2.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/race_it' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/race_it -- -j8 -l8
+[2.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/ros2_control_demo_description
+[2.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/race_it': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/race_it
+[2.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/articubot_one -- -j8 -l8
+[2.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/articubot_one
+[3.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/temp_teleop': PYTHONPATH=/home/farah/farah/dev_ws/src/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/src/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/farah/farah/dev_ws/src/build/temp_teleop/build --no-deps symlink_data
+[3.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/serial_motor': PYTHONPATH=/home/farah/farah/dev_ws/src/build/serial_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/src/install/serial_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/farah/farah/dev_ws/src/build/serial_motor/build --no-deps symlink_data
+[3.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(race_it)
+[3.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/race_it' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/race_it
+[3.362s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it' for CMake module files
+[3.363s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it' for CMake config files
+[3.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('race_it', 'cmake_prefix_path')
+[3.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/hook/cmake_prefix_path.ps1'
+[3.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/hook/cmake_prefix_path.dsv'
+[3.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/hook/cmake_prefix_path.sh'
+[3.366s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it/bin'
+[3.369s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it/lib/pkgconfig/race_it.pc'
+[3.369s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it/lib/python3.10/site-packages'
+[3.369s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it/bin'
+[3.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/package.ps1'
+[3.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/package.dsv'
+[3.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/package.sh'
+[3.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/package.bash'
+[3.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/package.zsh'
+[3.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/race_it/share/colcon-core/packages/race_it)
+[3.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(race_it)
+[3.451s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it' for CMake module files
+[3.452s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it' for CMake config files
+[3.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('race_it', 'cmake_prefix_path')
+[3.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/hook/cmake_prefix_path.ps1'
+[3.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/hook/cmake_prefix_path.dsv'
+[3.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/hook/cmake_prefix_path.sh'
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it/bin'
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it/lib/pkgconfig/race_it.pc'
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it/lib/python3.10/site-packages'
+[3.456s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/race_it/bin'
+[3.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/package.ps1'
+[3.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/package.dsv'
+[3.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/package.sh'
+[3.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/package.bash'
+[3.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/race_it/share/race_it/package.zsh'
+[3.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/race_it/share/colcon-core/packages/race_it)
+[3.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[3.663s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description' for CMake module files
+[3.664s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description' for CMake config files
+[3.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[3.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[3.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[3.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/bin'
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/bin'
+[3.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[3.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[3.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/ros2_control_demo_description
+[3.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[3.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[3.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[3.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[3.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[3.754s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description' for CMake module files
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description' for CMake config files
+[3.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[3.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[3.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[3.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/bin'
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[3.760s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[3.760s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/bin'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[3.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[3.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[3.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[3.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[3.767s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farah/farah/dev_ws/src/example_11' with build type 'ament_cmake'
+[3.767s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farah/farah/dev_ws/src/example_11'
+[3.768s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.768s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.790s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farah/farah/dev_ws/src/example_2' with build type 'ament_cmake'
+[3.791s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farah/farah/dev_ws/src/example_2'
+[3.791s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.792s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/example_11 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11
+[3.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/example_2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2
+[3.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/zinger_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/zinger_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/zinger_description
+[3.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/zinger_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/zinger_description -- -j8 -l8
+[4.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[4.108s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one' for CMake module files
+[4.109s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one' for CMake config files
+[4.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[4.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[4.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[4.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[4.113s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one/bin'
+[4.113s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[4.113s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one/lib/python3.10/site-packages'
+[4.114s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one/bin'
+[4.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/package.ps1'
+[4.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/articubot_one
+[4.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/package.dsv'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/package.sh'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/package.bash'
+[4.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/package.zsh'
+[4.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/articubot_one/share/colcon-core/packages/articubot_one)
+[4.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor', 'pythonpath_develop')
+[4.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/build/serial_motor/share/serial_motor/hook/pythonpath_develop.ps1'
+[4.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/build/serial_motor/share/serial_motor/hook/pythonpath_develop.dsv'
+[4.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/build/serial_motor/share/serial_motor/hook/pythonpath_develop.sh'
+[4.183s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/serial_motor' for CMake module files
+[4.183s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/serial_motor' for CMake config files
+[4.184s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/serial_motor/lib'
+[4.185s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/serial_motor/bin'
+[4.186s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/serial_motor/lib/pkgconfig/serial_motor.pc'
+[4.186s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/serial_motor/lib/python3.10/site-packages'
+[4.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/serial_motor' returned '0': PYTHONPATH=/home/farah/farah/dev_ws/src/build/serial_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/src/install/serial_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/farah/farah/dev_ws/src/build/serial_motor/build --no-deps symlink_data
+[4.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor', 'pythonpath')
+[4.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/hook/pythonpath.ps1'
+[4.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/hook/pythonpath.dsv'
+[4.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/hook/pythonpath.sh'
+[4.190s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/serial_motor/bin'
+[4.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor)
+[4.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/package.ps1'
+[4.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/package.dsv'
+[4.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/package.sh'
+[4.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/package.bash'
+[4.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor/package.zsh'
+[4.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/serial_motor/share/colcon-core/packages/serial_motor)
+[4.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/zinger_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/zinger_description -- -j8 -l8
+[4.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('temp_teleop', 'pythonpath_develop')
+[4.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/temp_teleop' returned '0': PYTHONPATH=/home/farah/farah/dev_ws/src/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/src/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/farah/farah/dev_ws/src/build/temp_teleop/build --no-deps symlink_data
+[4.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/build/temp_teleop/share/temp_teleop/hook/pythonpath_develop.ps1'
+[4.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/build/temp_teleop/share/temp_teleop/hook/pythonpath_develop.dsv'
+[4.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/build/temp_teleop/share/temp_teleop/hook/pythonpath_develop.sh'
+[4.214s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/temp_teleop' for CMake module files
+[4.215s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/temp_teleop' for CMake config files
+[4.216s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/temp_teleop/lib'
+[4.216s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/temp_teleop/bin'
+[4.216s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/temp_teleop/lib/pkgconfig/temp_teleop.pc'
+[4.216s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/temp_teleop/lib/python3.10/site-packages'
+[4.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('temp_teleop', 'pythonpath')
+[4.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/hook/pythonpath.ps1'
+[4.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/hook/pythonpath.dsv'
+[4.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/hook/pythonpath.sh'
+[4.220s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/temp_teleop/bin'
+[4.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(temp_teleop)
+[4.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/package.ps1'
+[4.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/package.dsv'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/package.sh'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/package.bash'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop/package.zsh'
+[4.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/temp_teleop/share/colcon-core/packages/temp_teleop)
+[4.233s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[4.234s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one' for CMake module files
+[4.235s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one' for CMake config files
+[4.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[4.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[4.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[4.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[4.243s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one/bin'
+[4.243s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[4.244s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one/lib/python3.10/site-packages'
+[4.244s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/articubot_one/bin'
+[4.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/package.ps1'
+[4.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/package.dsv'
+[4.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/package.sh'
+[4.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/package.bash'
+[4.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/articubot_one/share/articubot_one/package.zsh'
+[4.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/articubot_one/share/colcon-core/packages/articubot_one)
+[4.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/sim_car/car_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/sim_car
+[4.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/sim_car -- -j8 -l8
+[4.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/zinger_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/zinger_description
+[4.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/sim_car -- -j8 -l8
+[4.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/sim_car
+[4.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zinger_description)
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description' for CMake module files
+[4.678s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description' for CMake config files
+[4.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('zinger_description', 'cmake_prefix_path')
+[4.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/hook/cmake_prefix_path.ps1'
+[4.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/hook/cmake_prefix_path.dsv'
+[4.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/zinger_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/zinger_description
+[4.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/hook/cmake_prefix_path.sh'
+[4.683s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description/bin'
+[4.683s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description/lib/pkgconfig/zinger_description.pc'
+[4.684s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description/lib/python3.10/site-packages'
+[4.684s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description/bin'
+[4.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/package.ps1'
+[4.686s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/package.dsv'
+[4.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/package.sh'
+[4.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/package.bash'
+[4.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/package.zsh'
+[4.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/zinger_description/share/colcon-core/packages/zinger_description)
+[4.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zinger_description)
+[4.727s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description' for CMake module files
+[4.727s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description' for CMake config files
+[4.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('zinger_description', 'cmake_prefix_path')
+[4.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/hook/cmake_prefix_path.ps1'
+[4.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/hook/cmake_prefix_path.dsv'
+[4.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/hook/cmake_prefix_path.sh'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description/bin'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description/lib/pkgconfig/zinger_description.pc'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description/lib/python3.10/site-packages'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/zinger_description/bin'
+[4.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/package.ps1'
+[4.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/package.dsv'
+[4.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/package.sh'
+[4.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/package.bash'
+[4.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/zinger_description/share/zinger_description/package.zsh'
+[4.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/zinger_description/share/colcon-core/packages/zinger_description)
+[4.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_car)
+[4.986s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car' for CMake module files
+[4.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/sim_car
+[4.987s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car' for CMake config files
+[4.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_car', 'cmake_prefix_path')
+[4.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/hook/cmake_prefix_path.ps1'
+[4.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/hook/cmake_prefix_path.dsv'
+[4.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/hook/cmake_prefix_path.sh'
+[4.990s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car/lib'
+[4.990s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car/bin'
+[4.990s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car/lib/pkgconfig/sim_car.pc'
+[4.990s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car/lib/python3.10/site-packages'
+[4.990s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car/bin'
+[4.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.ps1'
+[4.991s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.dsv'
+[4.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.sh'
+[4.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.bash'
+[4.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.zsh'
+[4.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/sim_car/share/colcon-core/packages/sim_car)
+[5.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_car)
+[5.017s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car' for CMake module files
+[5.019s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car' for CMake config files
+[5.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_car', 'cmake_prefix_path')
+[5.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/hook/cmake_prefix_path.ps1'
+[5.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/hook/cmake_prefix_path.dsv'
+[5.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/hook/cmake_prefix_path.sh'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car/lib'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car/bin'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car/lib/pkgconfig/sim_car.pc'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car/lib/python3.10/site-packages'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/sim_car/bin'
+[5.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.ps1'
+[5.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.dsv'
+[5.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.sh'
+[5.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.bash'
+[5.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/sim_car/share/sim_car/package.zsh'
+[5.026s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/sim_car/share/colcon-core/packages/sim_car)
+[5.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/nav2_line_following_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/nav2_line_following_controller
+[5.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/nav2_line_following_controller -- -j8 -l8
+[7.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2' returned '0': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/example_2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2
+[7.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2 -- -j8 -l8
+[7.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11' returned '0': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/example_11 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11
+[7.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11 -- -j8 -l8
+[14.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2' returned '0': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2 -- -j8 -l8
+[14.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2
+[14.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_2)
+[14.660s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2' for CMake module files
+[14.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2' returned '0': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/ros2_control_demo_example_2
+[14.661s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2' for CMake config files
+[14.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_2', 'cmake_prefix_path')
+[14.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.ps1'
+[14.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.dsv'
+[14.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.sh'
+[14.664s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/lib'
+[14.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_2', 'ld_library_path_lib')
+[14.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.ps1'
+[14.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.dsv'
+[14.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.sh'
+[14.666s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/bin'
+[14.666s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/lib/pkgconfig/ros2_control_demo_example_2.pc'
+[14.667s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/lib/python3.10/site-packages'
+[14.667s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/bin'
+[14.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.ps1'
+[14.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv'
+[14.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.sh'
+[14.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.bash'
+[14.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.zsh'
+[14.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/colcon-core/packages/ros2_control_demo_example_2)
+[14.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_2)
+[14.718s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2' for CMake module files
+[14.719s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2' for CMake config files
+[14.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_2', 'cmake_prefix_path')
+[14.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.ps1'
+[14.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.dsv'
+[14.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.sh'
+[14.724s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/lib'
+[14.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_2', 'ld_library_path_lib')
+[14.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.ps1'
+[14.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.dsv'
+[14.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.sh'
+[14.727s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/bin'
+[14.727s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/lib/pkgconfig/ros2_control_demo_example_2.pc'
+[14.728s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/lib/python3.10/site-packages'
+[14.728s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/bin'
+[14.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.ps1'
+[14.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv'
+[14.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.sh'
+[14.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.bash'
+[14.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.zsh'
+[14.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_2/share/colcon-core/packages/ros2_control_demo_example_2)
+[15.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11' returned '0': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11 -- -j8 -l8
+[15.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11
+[15.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_11)
+[15.510s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11' for CMake module files
+[15.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11' returned '0': AMENT_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/src/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/ros2_control_demo_example_11
+[15.512s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11' for CMake config files
+[15.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_11', 'cmake_prefix_path')
+[15.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/cmake_prefix_path.ps1'
+[15.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/cmake_prefix_path.dsv'
+[15.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/cmake_prefix_path.sh'
+[15.516s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/lib'
+[15.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_11', 'ld_library_path_lib')
+[15.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/ld_library_path_lib.ps1'
+[15.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/ld_library_path_lib.dsv'
+[15.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/ld_library_path_lib.sh'
+[15.518s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/bin'
+[15.518s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/lib/pkgconfig/ros2_control_demo_example_11.pc'
+[15.519s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/lib/python3.10/site-packages'
+[15.519s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/bin'
+[15.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.ps1'
+[15.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.dsv'
+[15.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.sh'
+[15.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.bash'
+[15.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.zsh'
+[15.522s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/colcon-core/packages/ros2_control_demo_example_11)
+[15.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_11)
+[15.548s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11' for CMake module files
+[15.550s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11' for CMake config files
+[15.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_11', 'cmake_prefix_path')
+[15.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/cmake_prefix_path.ps1'
+[15.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/cmake_prefix_path.dsv'
+[15.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/cmake_prefix_path.sh'
+[15.553s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/lib'
+[15.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_11', 'ld_library_path_lib')
+[15.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/ld_library_path_lib.ps1'
+[15.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/ld_library_path_lib.dsv'
+[15.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/hook/ld_library_path_lib.sh'
+[15.555s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/bin'
+[15.556s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/lib/pkgconfig/ros2_control_demo_example_11.pc'
+[15.556s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/lib/python3.10/site-packages'
+[15.556s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/bin'
+[15.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.ps1'
+[15.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.dsv'
+[15.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.sh'
+[15.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.bash'
+[15.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/ros2_control_demo_example_11/package.zsh'
+[15.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/ros2_control_demo_example_11/share/colcon-core/packages/ros2_control_demo_example_11)
+[27.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/src/build/nav2_line_following_controller -- -j8 -l8
+[27.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/nav2_line_following_controller
+[28.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_line_following_controller)
+[28.055s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller' for CMake module files
+[28.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farah/farah/dev_ws/src/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/src/build/nav2_line_following_controller
+[28.056s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller' for CMake config files
+[28.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_line_following_controller', 'cmake_prefix_path')
+[28.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/cmake_prefix_path.ps1'
+[28.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/cmake_prefix_path.dsv'
+[28.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/cmake_prefix_path.sh'
+[28.058s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/lib'
+[28.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_line_following_controller', 'ld_library_path_lib')
+[28.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/ld_library_path_lib.ps1'
+[28.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/ld_library_path_lib.dsv'
+[28.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/ld_library_path_lib.sh'
+[28.059s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/bin'
+[28.060s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/lib/pkgconfig/nav2_line_following_controller.pc'
+[28.060s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/lib/python3.10/site-packages'
+[28.060s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/bin'
+[28.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.ps1'
+[28.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.dsv'
+[28.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.sh'
+[28.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.bash'
+[28.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.zsh'
+[28.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/colcon-core/packages/nav2_line_following_controller)
+[28.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_line_following_controller)
+[28.087s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller' for CMake module files
+[28.087s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller' for CMake config files
+[28.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_line_following_controller', 'cmake_prefix_path')
+[28.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/cmake_prefix_path.ps1'
+[28.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/cmake_prefix_path.dsv'
+[28.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/cmake_prefix_path.sh'
+[28.089s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/lib'
+[28.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_line_following_controller', 'ld_library_path_lib')
+[28.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/ld_library_path_lib.ps1'
+[28.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/ld_library_path_lib.dsv'
+[28.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/hook/ld_library_path_lib.sh'
+[28.090s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/bin'
+[28.090s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/lib/pkgconfig/nav2_line_following_controller.pc'
+[28.090s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/lib/python3.10/site-packages'
+[28.090s] Level 1:colcon.colcon_core.environment:checking '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/bin'
+[28.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.ps1'
+[28.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.dsv'
+[28.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.sh'
+[28.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.bash'
+[28.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/nav2_line_following_controller/package.zsh'
+[28.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farah/farah/dev_ws/src/install/nav2_line_following_controller/share/colcon-core/packages/nav2_line_following_controller)
+[28.093s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.093s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.093s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.093s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.107s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.131s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farah/farah/dev_ws/src/install/local_setup.ps1'
+[28.133s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/farah/farah/dev_ws/src/install/_local_setup_util_ps1.py'
+[28.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farah/farah/dev_ws/src/install/setup.ps1'
+[28.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farah/farah/dev_ws/src/install/local_setup.sh'
+[28.138s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/farah/farah/dev_ws/src/install/_local_setup_util_sh.py'
+[28.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farah/farah/dev_ws/src/install/setup.sh'
+[28.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farah/farah/dev_ws/src/install/local_setup.bash'
+[28.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farah/farah/dev_ws/src/install/setup.bash'
+[28.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farah/farah/dev_ws/src/install/local_setup.zsh'
+[28.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farah/farah/dev_ws/src/install/setup.zsh'

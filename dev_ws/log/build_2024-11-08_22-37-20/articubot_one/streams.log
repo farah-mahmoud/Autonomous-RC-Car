@@ -1,0 +1,69 @@
+[0.044s] Invoking command in '/home/farah/farah/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/articubot_one
+[0.997s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.997s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.997s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.998s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.999s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.999s] -- Added test 'lint_cmake' to check CMake code style
+[0.999s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.000s] -- Added test 'xmllint' to check XML markup files
+[1.001s] -- Configuring done
+[1.001s] -- Generating done
+[1.001s] -- Build files have been written to: /home/farah/farah/dev_ws/build/articubot_one
+[1.011s] Invoked command in '/home/farah/farah/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake /home/farah/farah/dev_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/farah/farah/dev_ws/install/articubot_one
+[1.012s] Invoking command in '/home/farah/farah/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/articubot_one -- -j8 -l8
+[1.127s] Invoked command in '/home/farah/farah/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/dev_ws/build/articubot_one -- -j8 -l8
+[1.242s] Invoking command in '/home/farah/farah/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/build/articubot_one
+[1.276s] -- Install configuration: ""
+[1.278s] -- Execute custom install script
+[1.280s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[1.280s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[1.280s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[1.281s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.281s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[1.281s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[1.281s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/joystick.yaml
+[1.281s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/main.rviz
+[1.281s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/map.rviz
+[1.281s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[1.281s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[1.282s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[1.282s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[1.282s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.283s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/description/camera.xacro
+[1.283s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[1.283s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/description/face.xacro
+[1.283s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.283s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.283s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[1.283s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.283s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.284s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[1.284s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[1.284s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[1.284s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[1.284s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[1.284s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.284s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[1.285s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[1.285s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[1.285s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[1.285s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.285s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.285s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.286s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.287s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.287s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.287s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.287s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[1.287s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.288s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[1.288s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[1.288s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.288s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.288s] -- Symlinking: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/package.dsv
+[1.315s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.315s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.318s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.318s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/articubot_one/share/articubot_one/package.xml
+[1.354s] Invoked command in '/home/farah/farah/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/dev_ws/build/articubot_one

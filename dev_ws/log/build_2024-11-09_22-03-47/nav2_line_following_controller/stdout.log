@@ -1,0 +1,33 @@
+[ 30%] Built target gtest
+[ 30%] Built target gtest_main
+[ 53%] Built target nav2_line_following_controller
+[ 76%] Built target geometry_test
+[100%] Built target route_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/lib/libnav2_line_following_controller.so
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/include//nav2_line_following_controller/geometry.h
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/include//nav2_line_following_controller/line_following_controller.hpp
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/include//nav2_line_following_controller/route.h
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/library_path.sh
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/library_path.dsv
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller//nav2_line_following_controller.xml
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/ament_index/resource_index/package_run_dependencies/nav2_line_following_controller
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/ament_index/resource_index/parent_prefix_path/nav2_line_following_controller
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/path.sh
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/path.dsv
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.bash
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.sh
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.zsh
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.dsv
+-- Symlinking: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/package.dsv
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/ament_index/resource_index/packages/nav2_line_following_controller
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_line_following_controller
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/nav2_line_following_controllerConfig.cmake
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/nav2_line_following_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/farah/farah/dev_ws/install/nav2_line_following_controller/share/nav2_line_following_controller/package.xml

@@ -1,0 +1,29 @@
+[2.232s] Invoking command in '/home/farah/farah/dev_ws/src/build/serial_motor': PYTHONPATH=/home/farah/farah/dev_ws/src/build/serial_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/src/install/serial_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/farah/farah/dev_ws/src/build/serial_motor/build --no-deps symlink_data
+[2.813s] running develop
+[2.823s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.823s]   warnings.warn(
+[2.824s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.824s]   warnings.warn(
+[3.118s] running egg_info
+[3.119s] creating serial_motor.egg-info
+[3.120s] writing serial_motor.egg-info/PKG-INFO
+[3.120s] writing dependency_links to serial_motor.egg-info/dependency_links.txt
+[3.121s] writing entry points to serial_motor.egg-info/entry_points.txt
+[3.121s] writing requirements to serial_motor.egg-info/requires.txt
+[3.121s] writing top-level names to serial_motor.egg-info/top_level.txt
+[3.122s] writing manifest file 'serial_motor.egg-info/SOURCES.txt'
+[3.126s] reading manifest file 'serial_motor.egg-info/SOURCES.txt'
+[3.127s] writing manifest file 'serial_motor.egg-info/SOURCES.txt'
+[3.131s] running build_ext
+[3.132s] Creating /home/farah/farah/dev_ws/src/install/serial_motor/lib/python3.10/site-packages/serial-motor.egg-link (link to .)
+[3.133s] Installing number_publisher script to /home/farah/farah/dev_ws/src/install/serial_motor/lib/serial_motor
+[3.133s] Installing serial_test script to /home/farah/farah/dev_ws/src/install/serial_motor/lib/serial_motor
+[3.134s] 
+[3.134s] Installed /home/farah/farah/dev_ws/src/build/serial_motor
+[3.134s] running symlink_data
+[3.134s] creating /home/farah/farah/dev_ws/src/install/serial_motor/share/ament_index
+[3.134s] creating /home/farah/farah/dev_ws/src/install/serial_motor/share/ament_index/resource_index
+[3.134s] creating /home/farah/farah/dev_ws/src/install/serial_motor/share/ament_index/resource_index/packages
+[3.134s] symbolically linking /home/farah/farah/dev_ws/src/build/serial_motor/resource/serial_motor -> /home/farah/farah/dev_ws/src/install/serial_motor/share/ament_index/resource_index/packages
+[3.134s] symbolically linking /home/farah/farah/dev_ws/src/build/serial_motor/package.xml -> /home/farah/farah/dev_ws/src/install/serial_motor/share/serial_motor
+[3.336s] Invoked command in '/home/farah/farah/dev_ws/src/build/serial_motor' returned '0': PYTHONPATH=/home/farah/farah/dev_ws/src/build/serial_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/src/install/serial_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/farah/farah/dev_ws/src/build/serial_motor/build --no-deps symlink_data

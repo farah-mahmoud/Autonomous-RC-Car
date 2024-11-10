@@ -1,0 +1,1 @@
+/home/farah/farah/dev_ws/build/sim_car/ament_cmake_environment_hooks/local_setup.zsh

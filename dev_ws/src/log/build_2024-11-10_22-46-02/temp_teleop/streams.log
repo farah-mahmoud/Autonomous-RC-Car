@@ -1,0 +1,26 @@
+[2.201s] Invoking command in '/home/farah/farah/dev_ws/src/build/temp_teleop': PYTHONPATH=/home/farah/farah/dev_ws/src/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/src/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/farah/farah/dev_ws/src/build/temp_teleop/build --no-deps symlink_data
+[2.819s] running develop
+[2.820s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.820s]   warnings.warn(
+[3.136s] running egg_info
+[3.136s] creating temp_teleop.egg-info
+[3.136s] writing temp_teleop.egg-info/PKG-INFO
+[3.137s] writing dependency_links to temp_teleop.egg-info/dependency_links.txt
+[3.137s] writing entry points to temp_teleop.egg-info/entry_points.txt
+[3.137s] writing requirements to temp_teleop.egg-info/requires.txt
+[3.137s] writing top-level names to temp_teleop.egg-info/top_level.txt
+[3.138s] writing manifest file 'temp_teleop.egg-info/SOURCES.txt'
+[3.148s] reading manifest file 'temp_teleop.egg-info/SOURCES.txt'
+[3.149s] writing manifest file 'temp_teleop.egg-info/SOURCES.txt'
+[3.151s] running build_ext
+[3.152s] Creating /home/farah/farah/dev_ws/src/install/temp_teleop/lib/python3.10/site-packages/temp-teleop.egg-link (link to .)
+[3.153s] Installing talker script to /home/farah/farah/dev_ws/src/install/temp_teleop/lib/temp_teleop
+[3.154s] 
+[3.154s] Installed /home/farah/farah/dev_ws/src/build/temp_teleop
+[3.154s] running symlink_data
+[3.154s] creating /home/farah/farah/dev_ws/src/install/temp_teleop/share/ament_index
+[3.154s] creating /home/farah/farah/dev_ws/src/install/temp_teleop/share/ament_index/resource_index
+[3.154s] creating /home/farah/farah/dev_ws/src/install/temp_teleop/share/ament_index/resource_index/packages
+[3.155s] symbolically linking /home/farah/farah/dev_ws/src/build/temp_teleop/resource/temp_teleop -> /home/farah/farah/dev_ws/src/install/temp_teleop/share/ament_index/resource_index/packages
+[3.155s] symbolically linking /home/farah/farah/dev_ws/src/build/temp_teleop/package.xml -> /home/farah/farah/dev_ws/src/install/temp_teleop/share/temp_teleop
+[3.347s] Invoked command in '/home/farah/farah/dev_ws/src/build/temp_teleop' returned '0': PYTHONPATH=/home/farah/farah/dev_ws/src/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/dev_ws/src/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/farah/farah/dev_ws/src/build/temp_teleop/build --no-deps symlink_data
