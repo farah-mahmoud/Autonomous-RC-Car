@@ -1,0 +1,60 @@
+[0.031s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/ros2_control_demo_example_2 -- -j8 -l8
+[0.045s] [0mCMake Error: The current CMakeCache.txt directory /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/ros2_control_demo_example_2/CMakeCache.txt is different than the directory /home/farah/farah/dev_ws/build/ros2_control_demo_example_2 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.068s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.263s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.274s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.311s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.314s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.322s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.565s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.566s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.587s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.595s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.614s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.622s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.635s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.689s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.591s] -- Configuring done
+[1.615s] -- Generating done
+[1.616s] -- Build files have been written to: /home/farah/farah/dev_ws/build/ros2_control_demo_example_2
+[1.642s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_2[0m
+[1.656s] [100%] Built target ros2_control_demo_example_2
+[1.666s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/ros2_control_demo_example_2 -- -j8 -l8
+[1.686s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/ros2_control_demo_example_2
+[1.691s] -- Install configuration: ""
+[1.692s] -- Execute custom install script
+[1.692s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2//ros2_control_demo_example_2.xml
+[1.693s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/diffbot_system.hpp
+[1.693s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/visibility_control.h
+[1.694s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/view_robot.launch.py
+[1.694s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control/diffbot.ros2_control.xacro
+[1.695s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf/diffbot.urdf.xacro
+[1.695s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/__pycache__/diffbot.launch.cpython-310.pyc
+[1.696s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/diffbot.launch.py
+[1.696s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config/diffbot_controllers.yaml
+[1.696s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.sh
+[1.697s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.dsv
+[1.697s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_2
+[1.697s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_2
+[1.698s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.sh
+[1.698s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.dsv
+[1.698s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.sh
+[1.698s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.dsv
+[1.699s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.bash
+[1.699s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.sh
+[1.699s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.zsh
+[1.699s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.dsv
+[1.700s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv
+[1.700s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/packages/ros2_control_demo_example_2
+[1.700s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_2
+[1.701s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_targets-extras.cmake
+[1.702s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.702s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config.cmake
+[1.702s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config-version.cmake
+[1.702s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.xml
+[1.703s] -- Up-to-date: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so
+[1.704s] -- Up-to-date: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export.cmake
+[1.704s] -- Up-to-date: /home/farah/farah/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export-noconfig.cmake
+[1.710s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/ros2_control_demo_example_2

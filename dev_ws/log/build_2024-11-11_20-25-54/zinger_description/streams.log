@@ -1,0 +1,43 @@
+[0.583s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/zinger_description': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/zinger_description -- -j8 -l8
+[0.593s] [0mCMake Error: The current CMakeCache.txt directory /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/zinger_description/CMakeCache.txt is different than the directory /home/farah/farah/dev_ws/build/zinger_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.607s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.778s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.787s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.834s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.952s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.964s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.966s] -- Added test 'lint_cmake' to check CMake code style
+[0.967s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.970s] -- Added test 'xmllint' to check XML markup files
+[0.972s] -- Configuring done
+[0.982s] -- Generating done
+[0.983s] -- Build files have been written to: /home/farah/farah/dev_ws/build/zinger_description
+[1.021s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/zinger_description' returned '0': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/zinger_description -- -j8 -l8
+[1.053s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/zinger_description': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/zinger_description
+[1.063s] -- Install configuration: ""
+[1.064s] -- Execute custom install script
+[1.064s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/config/zinger.yaml
+[1.065s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/launch/base.launch.py
+[1.065s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/launch/controller_manager.launch.py
+[1.066s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/launch/controllers.launch.py
+[1.066s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/launch/robot_description.launch.py
+[1.066s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/urdf/base.xacro
+[1.067s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/urdf/gazebo.xacro
+[1.067s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/urdf/macros.xacro
+[1.067s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/urdf/materials.xacro
+[1.067s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/ament_index/resource_index/package_run_dependencies/zinger_description
+[1.068s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/ament_index/resource_index/parent_prefix_path/zinger_description
+[1.068s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/environment/ament_prefix_path.sh
+[1.068s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/environment/ament_prefix_path.dsv
+[1.070s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/environment/path.sh
+[1.070s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/environment/path.dsv
+[1.070s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/local_setup.bash
+[1.070s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/local_setup.sh
+[1.071s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/local_setup.zsh
+[1.071s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/local_setup.dsv
+[1.071s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/package.dsv
+[1.072s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/ament_index/resource_index/packages/zinger_description
+[1.072s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/cmake/zinger_descriptionConfig.cmake
+[1.072s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/cmake/zinger_descriptionConfig-version.cmake
+[1.072s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/zinger_description/share/zinger_description/package.xml
+[1.080s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/zinger_description' returned '0': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/zinger_description

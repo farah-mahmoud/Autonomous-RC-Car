@@ -1,0 +1,9 @@
+<class_libraries>
+    <library path="nav2_line_following_controller">
+        <class type="nav2_line_following_controller::LineFollowingController" base_class_type="nav2_core::Controller">
+            <description>
+                nav2_line_following_controller
+            </description>
+        </class>
+    </library>
+</class_libraries>

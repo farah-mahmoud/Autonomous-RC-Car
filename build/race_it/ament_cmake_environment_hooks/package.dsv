@@ -1,0 +1,4 @@
+source;share/race_it/local_setup.bash
+source;share/race_it/local_setup.dsv
+source;share/race_it/local_setup.sh
+source;share/race_it/local_setup.zsh

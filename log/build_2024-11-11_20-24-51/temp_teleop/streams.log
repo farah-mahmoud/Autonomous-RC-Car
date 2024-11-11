@@ -1,0 +1,37 @@
+[1.524s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/src/ros2_acker/src/temp_teleop': PYTHONPATH=/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/temp_teleop build --build-base /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/build install --record /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/install.log --single-version-externally-managed install_data
+[1.931s] running egg_info
+[1.932s] creating ../../../../../build/temp_teleop/temp_teleop.egg-info
+[1.932s] writing ../../../../../build/temp_teleop/temp_teleop.egg-info/PKG-INFO
+[1.932s] writing dependency_links to ../../../../../build/temp_teleop/temp_teleop.egg-info/dependency_links.txt
+[1.932s] writing entry points to ../../../../../build/temp_teleop/temp_teleop.egg-info/entry_points.txt
+[1.932s] writing requirements to ../../../../../build/temp_teleop/temp_teleop.egg-info/requires.txt
+[1.932s] writing top-level names to ../../../../../build/temp_teleop/temp_teleop.egg-info/top_level.txt
+[1.932s] writing manifest file '../../../../../build/temp_teleop/temp_teleop.egg-info/SOURCES.txt'
+[1.935s] reading manifest file '../../../../../build/temp_teleop/temp_teleop.egg-info/SOURCES.txt'
+[1.937s] writing manifest file '../../../../../build/temp_teleop/temp_teleop.egg-info/SOURCES.txt'
+[1.937s] running build
+[1.937s] running build_py
+[1.937s] creating /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/build
+[1.938s] creating /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/build/lib
+[1.938s] creating /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/build/lib/temp_teleop
+[1.938s] copying temp_teleop/__init__.py -> /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/build/lib/temp_teleop
+[1.938s] copying temp_teleop/submit.py -> /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/build/lib/temp_teleop
+[1.939s] running install
+[1.939s] running install_lib
+[1.940s] creating /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/lib/python3.10/site-packages/temp_teleop
+[1.940s] copying /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/build/lib/temp_teleop/__init__.py -> /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/lib/python3.10/site-packages/temp_teleop
+[1.942s] copying /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/build/lib/temp_teleop/submit.py -> /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/lib/python3.10/site-packages/temp_teleop
+[1.945s] byte-compiling /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/lib/python3.10/site-packages/temp_teleop/__init__.py to __init__.cpython-310.pyc
+[1.945s] byte-compiling /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/lib/python3.10/site-packages/temp_teleop/submit.py to submit.cpython-310.pyc
+[1.945s] running install_data
+[1.946s] creating /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/share/ament_index
+[1.946s] creating /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/share/ament_index/resource_index
+[1.946s] creating /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/share/ament_index/resource_index/packages
+[1.946s] copying resource/temp_teleop -> /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/share/ament_index/resource_index/packages
+[1.946s] copying package.xml -> /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/share/temp_teleop
+[1.946s] running install_egg_info
+[1.949s] Copying ../../../../../build/temp_teleop/temp_teleop.egg-info to /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/lib/python3.10/site-packages/temp_teleop-0.0.0-py3.10.egg-info
+[1.950s] running install_scripts
+[1.981s] Installing talker script to /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/lib/temp_teleop
+[1.982s] writing list of installed files to '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/install.log'
+[2.033s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/src/ros2_acker/src/temp_teleop' returned '0': PYTHONPATH=/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/farah/GP_Repo/Autonomous-RC-Car/install/temp_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/temp_teleop build --build-base /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/build install --record /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/temp_teleop/install.log --single-version-externally-managed install_data

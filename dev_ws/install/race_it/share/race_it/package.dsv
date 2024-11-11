@@ -1,8 +1,3 @@
 source;share/race_it/hook/cmake_prefix_path.ps1
 source;share/race_it/hook/cmake_prefix_path.dsv
 source;share/race_it/hook/cmake_prefix_path.sh
-source;share/race_it/local_setup.bash
-source;share/race_it/local_setup.dsv
-source;share/race_it/local_setup.ps1
-source;share/race_it/local_setup.sh
-source;share/race_it/local_setup.zsh

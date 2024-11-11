@@ -1,0 +1,42 @@
+[0.036s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/race_it': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/race_it -- -j8 -l8
+[0.605s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.605s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.605s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.605s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.605s] -- Added test 'lint_cmake' to check CMake code style
+[0.605s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.605s] -- Added test 'xmllint' to check XML markup files
+[0.605s] -- Configuring done
+[0.605s] -- Generating done
+[0.605s] -- Build files have been written to: /home/farah/farah/dev_ws/build/race_it
+[0.606s] [0mCMake Error: The current CMakeCache.txt directory /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/race_it/CMakeCache.txt is different than the directory /home/farah/farah/dev_ws/build/race_it where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.611s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/race_it' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/race_it -- -j8 -l8
+[0.650s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/race_it': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/race_it
+[0.661s] -- Install configuration: ""
+[0.661s] -- Execute custom install script
+[0.662s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/inertial.xacro
+[0.663s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/race_car.xacro
+[0.663s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/ros2_ack.xacro
+[0.664s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/temp_controllers/car.xacro
+[0.664s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/temp_controllers/gazebo_control_dd.xacro
+[0.664s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/description/temp_controllers/gazebo_control_steer.xacro
+[0.665s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/launch/rsp.launch.py
+[0.666s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/config/controller/my_controllers.yaml
+[0.667s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/config/mapper_params_online_async.yaml
+[0.668s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/config/rviz/urdf_config.rviz
+[0.668s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/ament_index/resource_index/package_run_dependencies/race_it
+[0.669s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/ament_index/resource_index/parent_prefix_path/race_it
+[0.669s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/environment/ament_prefix_path.sh
+[0.669s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/environment/ament_prefix_path.dsv
+[0.670s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/environment/path.sh
+[0.670s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/environment/path.dsv
+[0.671s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/local_setup.bash
+[0.671s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/local_setup.sh
+[0.672s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/local_setup.zsh
+[0.672s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/local_setup.dsv
+[0.672s] -- Symlinking: /home/farah/farah/dev_ws/install/race_it/share/race_it/package.dsv
+[0.686s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/ament_index/resource_index/packages/race_it
+[0.686s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/cmake/race_itConfig.cmake
+[0.687s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/cmake/race_itConfig-version.cmake
+[0.687s] -- Up-to-date symlink: /home/farah/farah/dev_ws/install/race_it/share/race_it/package.xml
+[0.692s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/race_it' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/serial_motor:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/build/race_it

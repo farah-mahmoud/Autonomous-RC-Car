@@ -1,0 +1,93 @@
+[0.032s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/src/nav2_line_following_controller -DCMAKE_INSTALL_PREFIX=/home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller
+[0.759s] -- The C compiler identification is GNU 11.4.0
+[0.760s] -- The CXX compiler identification is GNU 11.4.0
+[0.760s] -- Detecting C compiler ABI info
+[0.760s] -- Detecting C compiler ABI info - done
+[0.760s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.760s] -- Detecting C compile features
+[0.760s] -- Detecting C compile features - done
+[0.760s] -- Detecting CXX compiler ABI info
+[0.760s] -- Detecting CXX compiler ABI info - done
+[0.760s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.760s] -- Detecting CXX compile features
+[0.760s] -- Detecting CXX compile features - done
+[0.760s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.783s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.973s] -- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)
+[0.979s] -- Found nav2_core: 1.1.16 (/opt/ros/humble/share/nav2_core/cmake)
+[1.114s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.122s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.143s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.312s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.319s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.497s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.546s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.619s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.641s] -- Looking for pthread.h
+[1.760s] -- Looking for pthread.h - found
+[1.760s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.879s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.881s] -- Found Threads: TRUE  
+[2.363s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.363s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.502s] -- Setting build type to Release as none was specified.
+[2.595s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.599s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.731s] -- Configuring done
+[2.852s] -- Generating done
+[2.854s] -- Build files have been written to: /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller
+[2.869s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/src/nav2_line_following_controller -DCMAKE_INSTALL_PREFIX=/home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller
+[2.870s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller -- -j8 -l8
+[2.914s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.916s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.916s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_line_following_controller.dir/src/line_following_controller.cpp.o[0m
+[2.916s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_line_following_controller.dir/src/geometry.cpp.o[0m
+[4.304s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.356s] [ 38%] Built target gtest_main
+[11.030s] [ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.060s] [ 46%] Built target gtest
+[11.077s] [ 69%] [32mBuilding CXX object CMakeFiles/route_test.dir/src/geometry.cpp.o[0m
+[11.077s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_test.dir/src/geometry_test.cpp.o[0m
+[11.077s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_test.dir/src/geometry.cpp.o[0m
+[11.078s] [ 76%] [32mBuilding CXX object CMakeFiles/route_test.dir/src/route_test.cpp.o[0m
+[13.945s] [ 84%] [32m[1mLinking CXX executable geometry_test[0m
+[14.054s] [ 84%] Built target geometry_test
+[15.154s] [ 92%] [32m[1mLinking CXX shared library libnav2_line_following_controller.so[0m
+[15.472s] [ 92%] Built target nav2_line_following_controller
+[16.547s] [100%] [32m[1mLinking CXX executable route_test[0m
+[16.816s] [100%] Built target route_test
+[16.824s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller -- -j8 -l8
+[16.849s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller
+[16.855s] -- Install configuration: "Release"
+[16.855s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/lib/libnav2_line_following_controller.so
+[16.855s] -- Set runtime path of "/home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/lib/libnav2_line_following_controller.so" to ""
+[16.855s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/include/
+[16.856s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/include//nav2_line_following_controller
+[16.856s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/include//nav2_line_following_controller/geometry.h
+[16.856s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/include//nav2_line_following_controller/line_following_controller.hpp
+[16.856s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/include//nav2_line_following_controller/route.h
+[16.856s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/library_path.sh
+[16.856s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/library_path.dsv
+[16.856s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/nav2_line_following_controller.xml
+[16.856s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/ament_index/resource_index/package_run_dependencies/nav2_line_following_controller
+[16.857s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/ament_index/resource_index/parent_prefix_path/nav2_line_following_controller
+[16.857s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/ament_prefix_path.sh
+[16.857s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/ament_prefix_path.dsv
+[16.857s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/path.sh
+[16.857s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/path.dsv
+[16.857s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.bash
+[16.857s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.sh
+[16.857s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.zsh
+[16.857s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.dsv
+[16.857s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/package.dsv
+[16.858s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/ament_index/resource_index/packages/nav2_line_following_controller
+[16.858s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_line_following_controller
+[16.858s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.858s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[16.858s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.858s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/nav2_line_following_controllerConfig.cmake
+[16.858s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/nav2_line_following_controllerConfig-version.cmake
+[16.858s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/nav2_line_following_controller/share/nav2_line_following_controller/package.xml
+[16.860s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/nav2_line_following_controller

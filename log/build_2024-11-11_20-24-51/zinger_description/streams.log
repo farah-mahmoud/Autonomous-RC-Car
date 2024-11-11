@@ -1,0 +1,58 @@
+[0.747s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/src/zinger_description -DCMAKE_INSTALL_PREFIX=/home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description
+[0.844s] -- The C compiler identification is GNU 11.4.0
+[0.934s] -- The CXX compiler identification is GNU 11.4.0
+[0.943s] -- Detecting C compiler ABI info
+[1.047s] -- Detecting C compiler ABI info - done
+[1.060s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.060s] -- Detecting C compile features
+[1.062s] -- Detecting C compile features - done
+[1.068s] -- Detecting CXX compiler ABI info
+[1.191s] -- Detecting CXX compiler ABI info - done
+[1.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.203s] -- Detecting CXX compile features
+[1.203s] -- Detecting CXX compile features - done
+[1.208s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.445s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.615s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.718s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.875s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.880s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.881s] -- Added test 'lint_cmake' to check CMake code style
+[1.882s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.886s] -- Added test 'xmllint' to check XML markup files
+[1.887s] -- Configuring done
+[1.890s] -- Generating done
+[1.891s] -- Build files have been written to: /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description
+[1.904s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description' returned '0': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake /home/farah/farah/GP_Repo/Autonomous-RC-Car/dev_ws/src/zinger_description -DCMAKE_INSTALL_PREFIX=/home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description
+[1.905s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description -- -j8 -l8
+[2.015s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description' returned '0': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description -- -j8 -l8
+[2.039s] Invoking command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description
+[2.047s] -- Install configuration: ""
+[2.048s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/config
+[2.048s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/config/zinger.yaml
+[2.048s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/launch
+[2.048s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/launch/controller_manager.launch.py
+[2.048s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/launch/robot_description.launch.py
+[2.048s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/launch/base.launch.py
+[2.049s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/launch/controllers.launch.py
+[2.049s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/urdf
+[2.049s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/urdf/gazebo.xacro
+[2.049s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/urdf/materials.xacro
+[2.049s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/urdf/macros.xacro
+[2.050s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/urdf/base.xacro
+[2.050s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/ament_index/resource_index/package_run_dependencies/zinger_description
+[2.050s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/ament_index/resource_index/parent_prefix_path/zinger_description
+[2.050s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/environment/ament_prefix_path.sh
+[2.050s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/environment/ament_prefix_path.dsv
+[2.051s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/environment/path.sh
+[2.051s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/environment/path.dsv
+[2.051s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/local_setup.bash
+[2.051s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/local_setup.sh
+[2.051s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/local_setup.zsh
+[2.051s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/local_setup.dsv
+[2.051s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/package.dsv
+[2.052s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/ament_index/resource_index/packages/zinger_description
+[2.052s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/cmake/zinger_descriptionConfig.cmake
+[2.052s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/cmake/zinger_descriptionConfig-version.cmake
+[2.052s] -- Installing: /home/farah/farah/GP_Repo/Autonomous-RC-Car/install/zinger_description/share/zinger_description/package.xml
+[2.054s] Invoked command in '/home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description' returned '0': CMAKE_PREFIX_PATH=/home/farah/farah/dev_ws/install/zinger_description:/home/farah/farah/dev_ws/install/temp_teleop:/home/farah/farah/dev_ws/install/sim_car:/home/farah/farah/dev_ws/install/serial_motor:/home/farah/farah/dev_ws/install/ros2_control_demo_example_2:/home/farah/farah/dev_ws/install/ros2_control_demo_example_11:/home/farah/farah/dev_ws/install/ros2_control_demo_description:/home/farah/farah/dev_ws/install/race_it:/home/farah/farah/dev_ws/install/nav2_line_following_controller:/home/farah/farah/dev_ws/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/farah/farah/GP_Repo/Autonomous-RC-Car/build/zinger_description
