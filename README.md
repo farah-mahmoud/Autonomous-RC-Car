@@ -1,7 +1,9 @@
 # Project Overview
-This project is centered around the development of an Autonomous RC Car
-The project aims to harness cutting-edge technologies such as LiDAR, cameras, GPS, and IMU to create a fully autonomous navigation system. By integrating these advanced sensors with robust software algorithms for object detection, path planning, and real-time decision-making, the car will be capable of perceiving its environment, understanding complex road scenarios, and navigating safely.
-The project involves several innovative features including SLAM (Simultaneous Localization and Mapping), dynamic obstacle avoidance, and closed-loop control systems for precise maneuvering. Our team also employs simulation tools like Gazebo and RViz to develop and test algorithms in a virtual environment before real-world implementation. This ambitious project not only showcases the application of modern robotics and autonomous driving technology but also aims to contribute to the field by exploring new methodologies and enhancing existing ones.
+This project is centered around the development of an Autonomous RC Car.  
+The project aims to harness cutting-edge technologies such as LiDAR, cameras, GPS, and IMU to create a fully autonomous navigation system.  
+By integrating these advanced sensors with robust software algorithms for object detection, path planning, and real-time decision-making, the car will be capable of perceiving its environment, understanding complex road scenarios, and navigating safely.  
+The project involves several innovative features including SLAM (Simultaneous Localization and Mapping), dynamic obstacle avoidance, and closed-loop control systems for precise maneuvering. Our team also employs simulation tools like Gazebo and RViz to develop and test algorithms in a virtual environment before real-world implementation.  
+This ambitious project not only showcases the application of modern robotics and autonomous driving technology but also aims to contribute to the field by exploring new methodologies and enhancing existing ones.
 
 # Objectives and Features
 - **Autonomous Navigation:** The RC car should have the ability to independently navigate realworld roads and reach its designated destination without manual intervention.
@@ -19,6 +21,13 @@ The project involves several innovative features including SLAM (Simultaneous Lo
 ![Gazebo](https://www.clearpathrobotics.com/assets/guides/kinetic/warthog/_images/warthog_gazebo.png)
 ![object detection](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/1446e76-f181-6047-4e73-8d8ba3c6a50e_object_detection_1.webp)
 
+# How to run the project
+- Refer to the CheatSheets directory that contains all about the simulation and hardware configuration to get started with the rc car.  
+  - **Simulation.md** to launch *gazebo* alongside *rviz2* and to implement *SLAM* and *Navigation*.  
+  - **joystick.md** to use the *joystick* to move your robot instead of using the keyboard.  
+- Refer to the **dev_ws** which contains all the source code for the simulation files.  
+- Refer to **docs** directory to find all setups and learning phase tutorials.  
+
 # About the team **Big Hero 6** 
 
 ## Team Members
@@ -27,22 +36,22 @@ We are the *Big Hero 6* Team from the *Faculty of Engineering, Cairo University,
 
 ### Meet our Team:
 
-- **Noureldeen Emad** – [Role: Team Leader, ]
+- **Noureldeen Emad** – [Team Leader]
 
 
-- **Ahmed Nasser** – [Role: ]
+- **Ahmed Nasser**
 
   
-- **Eslam Gamal** – [Role: ]
+- **Eslam Gamal**
 
 
-- **Farah Mahmoud** – [Role: ]
+- **Farah Mahmoud**
 
 
-- **Sama Khaled** – [Role: ]
+- **Sama Khaled**
 
 
-- **Yahia Mohamed** – [Role: ]
+- **Yahia Mohamed**
 
 
 ### Supervisors:
@@ -53,4 +62,4 @@ We are the *Big Hero 6* Team from the *Faculty of Engineering, Cairo University,
 
 
 
-**Check out our proposal for more** [Autonomous RC Car Graduation Project Proposal](https://drive.google.com/file/d/1_zSrAM7MhMxAl2cyOLDfITZkokorSoef/view?usp=sharing)
+**Check out our project proposal for more** [Autonomous RC Car Graduation Project Proposal](https://drive.google.com/file/d/1CbgzzAHH4dYqfB2Jl7uqtO-rwBZz6TLr/view?usp=sharing)
