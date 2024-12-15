@@ -1,5 +1,5 @@
 # Setup
-We will be developing our code using ROS on Ubuntu for Gazebo.
+We will be developing our code using ROS2 foxy on Ubuntu20.04 on Gazebo and rviz2.
 
 
 ## Ubuntu
