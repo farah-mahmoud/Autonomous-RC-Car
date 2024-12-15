@@ -24,7 +24,7 @@ if you're not comfortable with it change the "joystick.yaml" file code. in the l
 ```
 require_enable_button: false
 ```
-# Troubleshooting
+# Troubleshooting (optional)
 if the above doesn't work run in the terminal:
 ```
 ros2 topic echo /joy
