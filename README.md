@@ -45,7 +45,7 @@ We are the *Big Hero 6* Team from the *Faculty of Engineering, Cairo University,
 - **Eslam Gamal**
 
 
-- **Farah Mahmoud**
+- **Farah Mahmoud** [github](https://github.com/farah-mahmoud) / [linkedin](https://www.linkedin.com/in/farahmahmoud/)
 
 
 - **Sama Khaled**
