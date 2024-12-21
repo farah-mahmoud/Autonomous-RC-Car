@@ -1,26 +1,20 @@
 
-# Setting Up and Testing Serial Communication Between Arduino and Raspberry Pi Using SSH
+# Setting Up and Testing Serial Communication Between Arduino and Raspberry Pi Using SSH and ROS 2 Foxy
 
-## 1. Connecting the Raspberry Pi and Arduino
-1. Connect the Arduino to the Raspberry Pi using a USB cable or serial pins (TX/RX). For TX/RX:
-   - **Arduino TX** to **Raspberry Pi RX**.
-   - **Arduino RX** to **Raspberry Pi TX**.
-   - Common Ground (GND) between both devices.
+## 1. Connecting the Arduino to Raspberry Pi
+1. Connect the Arduino to the Raspberry Pi using a USB cable (the same cable used for uploading code to the Arduino).
 
-2. Enable UART on the Raspberry Pi by editing the `/boot/config.txt` file:
+2. Identify the serial port on the Raspberry Pi:
    ```bash
-   sudo nano /boot/config.txt
+   ls /dev/tty*
    ```
-   Add or ensure the following lines are present:
-   ```
-   enable_uart=1
-   ```
-   Save and exit (`Ctrl + O`, `Enter`, `Ctrl + X`).
+   Look for a device like `/dev/ttyUSB0` or `/dev/ttyACM0`.
 
-3. Reboot the Raspberry Pi:
+3. Ensure proper permissions for the serial port:
    ```bash
-   sudo reboot
+   sudo usermod -a -G dialout $USER
    ```
+   Log out and log back in for the changes to take effect.
 
 ---
 
@@ -44,67 +38,101 @@
 
 ---
 
-## 3. Writing the Raspberry Pi Python Script
-1. Write a Python script (`serial_comm.py`) to send and receive messages:
+## 3. Setting Up ROS 2 Foxy on Raspberry Pi
+1. Ensure ROS 2 Foxy is installed on the Raspberry Pi. Follow the [official installation guide](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html) if needed.
+
+2. Create a new workspace for your project:
+   ```bash
+   mkdir -p ~/ros2_ws/src
+   cd ~/ros2_ws
+   ```
+
+3. Initialize the workspace:
+   ```bash
+   colcon build
+   source install/setup.bash
+   ```
+
+---
+
+## 4. Writing the ROS 2 Node for Serial Communication
+1. Navigate to the `src` directory of your workspace:
+   ```bash
+   cd ~/ros2_ws/src
+   ```
+
+2. Create a new ROS 2 package for serial communication:
+   ```bash
+   ros2 pkg create --build-type ament_python serial_comm --dependencies rclpy
+   ```
+
+3. Navigate to the package directory and edit the `serial_comm/serial_comm/serial_node.py` file:
    ```python
+   import rclpy
+   from rclpy.node import Node
    import serial
-   import time
 
-   # Open serial connection
-   ser = serial.Serial('/dev/serial0', 9600, timeout=1)
-   ser.flush()
+   class SerialNode(Node):
+       def __init__(self):
+           super().__init__('serial_node')
+           self.serial_port = serial.Serial('/dev/ttyUSB0', 9600, timeout=1)
+           self.timer = self.create_timer(1.0, self.send_and_receive)
 
-   while True:
-       # Send a message to Arduino
-       ser.write(b"Hello Arduino!\n")
-       print("Sent: Hello Arduino!")
-       time.sleep(1)
+       def send_and_receive(self):
+           # Send message to Arduino
+           self.serial_port.write(b"Hello Arduino!\n")
+           self.get_logger().info("Sent: Hello Arduino!")
 
-       # Read and print Arduino's response
-       if ser.in_waiting > 0:
-           response = ser.readline().decode('utf-8').strip()
-           print(f"Received: {response}")
+           # Read response from Arduino
+           if self.serial_port.in_waiting > 0:
+               response = self.serial_port.readline().decode('utf-8').strip()
+               self.get_logger().info(f"Received: {response}")
+
+   def main(args=None):
+       rclpy.init(args=args)
+       node = SerialNode()
+       rclpy.spin(node)
+       node.destroy_node()
+       rclpy.shutdown()
+
+   if __name__ == '__main__':
+       main()
    ```
 
-2. Save the script on your development machine.
+4. Update the `setup.py` file in your package to include the `serial_node.py` script.
 
 ---
 
-## 4. Transferring the Python Script to Raspberry Pi
-### Using `scp`
-1. Run this command on your development machine:
+## 5. Building and Running the ROS 2 Node
+1. Return to your workspace root and build the package:
    ```bash
-   scp /path/to/serial_comm.py pi_user@pi_ip:/home/pi/
+   cd ~/ros2_ws
+   colcon build
+   source install/setup.bash
    ```
 
-2. Replace `/path/to/serial_comm.py`, `pi_user`, and `pi_ip` as appropriate.
-
-3. SSH into the Raspberry Pi to verify:
+2. Run the ROS 2 node:
    ```bash
-   ssh pi_user@pi_ip
-   ls /home/pi/
-   ```
-
----
-
-## 5. Running the Serial Communication Script on Raspberry Pi
-1. SSH into the Raspberry Pi:
-   ```bash
-   ssh pi_user@pi_ip
-   ```
-
-2. Run the Python script:
-   ```bash
-   python3 /home/pi/serial_comm.py
+   ros2 run serial_comm serial_node
    ```
 
 3. Monitor the output:
-   - **Sent Messages**: "Hello Arduino!"
-   - **Received Messages**: "Echo: Hello Arduino!"
+   - Sent messages: "Hello Arduino!"
+   - Received messages: "Echo: Hello Arduino!"
 
 ---
 
-## 6. Debugging Tips
-- Ensure the Arduino is properly connected and powered.
-- Verify the Raspberry Pi serial port (`/dev/serial0` or another). Run `ls /dev/tty*` to list available ports.
-- Test the Arduino code using the Arduino Serial Monitor to ensure it's working as expected.
+## 6. Transferring Files to Raspberry Pi (Optional)
+If developing on a separate machine, transfer the `serial_comm` package to the Raspberry Pi using `scp`:
+```bash
+scp -r /path/to/serial_comm pi_user@pi_ip:/home/pi/ros2_ws/src/
+```
+
+Then rebuild the workspace on the Raspberry Pi as described in step 5.
+
+---
+
+## 7. Debugging Tips
+- Ensure the Arduino code works independently by testing it in the Arduino Serial Monitor.
+- Verify the correct serial port (`/dev/ttyUSB0`, `/dev/ttyACM0`, etc.) using `ls /dev/tty*`.
+- Check permissions for the serial port.
