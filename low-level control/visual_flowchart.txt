@@ -1,0 +1,11 @@
++---------------------+        +----------------------------+       +-----------------------------+
+|  Command (e.g.,     |  --->  |  `serial_node_publisher.py` |  ---> |   Arduino (via Serial Port)  |
+|  Teleop or Simulation)        |  (Listens to `cmd_vel` topic)     |       (Processes the speed and steering data)|
+|  Sends commands      |        |  (Sends data to Arduino)     |       |    (Controls motors based on data)|
++---------------------+        +----------------------------+       +-----------------------------+
+                                          ^
+                                          |
+                            +---------------------------+
+                            | `number_publisher` (Launcher)|
+                            | Starts `serial_node_publisher.py` |
+                            +---------------------------+

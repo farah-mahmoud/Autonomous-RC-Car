@@ -1,16 +1,12 @@
 # Setup
-We will be developing our code using ROS on Ubuntu for Gazebo.
+We will be developing our code using ROS2 foxy on Ubuntu20.04 on Gazebo and rviz2.
 
 
-Ubuntu
-Download Ubuntu 20.04 LTS (Focal Fossa) from [here](https://releases.ubuntu.com/20.04/).
-
-Install the desktop image.
-
-Follow this [video](https://youtu.be/-iSAyiicyQY?si=fcQH9JyLW-xjKPko) to install Ubuntu alongside Windows as a dual boot.
-
-Allocate 70GB of space or more for Ubuntu.
-
+## Ubuntu
+Download Ubuntu 20.04 LTS (Focal Fossa) from [here](https://releases.ubuntu.com/20.04/).  
+Install the desktop image.  
+Follow this [video](https://youtu.be/-iSAyiicyQY?si=fcQH9JyLW-xjKPko) to install Ubuntu alongside Windows as a dual boot.  
+Allocate at least 30GB of space or more for Ubuntu.  
 Make yourself familiar with Ubuntu and install VSCode and Discord from the Ubuntu software store.
 
 Start a terminal and run:
@@ -20,9 +16,31 @@ Start a terminal and run:
 	
 ---
 
-# ROS
+# ROS2 Setups
+## ROS2 Foxy
 Follow this [guide](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html) to install ROS 2 Foxy.
 
+## Gazebo Simulation
+to install gazebo:
+
+	sudo apt install ros-foxy-gazebo-ros-pkgs
+	sudo apt install ros-foxy-gazebo-ros-pkgs
+
+## rviz2
+to install rviz2:
+
+	sudo apt install ros-foxy-rviz2
+
+## Check Installations
+To check if Gazebo is installed correctly:
+
+	gazebo
+ 
+To check if RViz2 is installed correctly:
+
+	rviz2
+ 
+If both open without any errors, then you've successfully installed Gazebo and RViz2.
 ---
 
 # VSCode
@@ -56,3 +74,5 @@ Run the below commands to install helpful extensions:
 	code --install-extension usernamehw.errorlens
 	code --install-extension yzhang.markdown-all-in-one
 
+# Terminator
+	sudo apt install terminator
