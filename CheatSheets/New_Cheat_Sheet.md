@@ -44,7 +44,7 @@ sudo apt upgrade
 ```
 *Make sure that you have the package downloaded in a workspace
 Open the second tab (with 3 windows)
-* Change directory to the workspace that contains package : cd ‘ur ws’
+* Change directory to the workspace that contains package : `cd ur_ws`
 
 ### 1st window :
 ```
