@@ -39,7 +39,12 @@ ros2 run teleop_serial teleop_serial
 
 <b> Note that you should run the above run lines on the Raspberry pi4 <b>
 ** Make sure Lidar and Arduino are connected to the Rpi
-•
+### 4th window:
+```
+screen /dev/ttyACM0 115200
+```
+Press Ctrl + A, then K, then Y to exit.
+
 ## Dev machine
 ``` 
 sudo apt update
