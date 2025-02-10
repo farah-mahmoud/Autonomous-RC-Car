@@ -38,5 +38,12 @@ ros2 topic echo /cmd_vel_joy
 ```
 Check that teleop_twist_joy is receiving /joy and publishing to /cmd_vel_joy
 
+# New package for joystick control
+```
+ros2 run joy joy_node
+```
+```
+ros2 run joystick_teleop joystick_serial
+```
 # Go real
 if the above works you're ready to test with the raspberry pi
