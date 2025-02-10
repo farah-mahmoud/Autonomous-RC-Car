@@ -26,6 +26,9 @@ ros2 launch articubot_one launch_robot.launch.py
 ros2 launch articubot_one rplidar.launch.py
 ```
 or run the command of rplidar_composition from history
+```
+ros2 run rplidar_ros rplidar_composition
+```
 ### 3rd window : 
 ```
 ros2 run teleop_serial teleop_serial
@@ -53,17 +56,16 @@ rviz2
 add your components:
 * Robot Model with topic `\robot_description`
 * TF
-* Lidar with topic `\scan`  
+* Lidar with topic `\scan`
+* map with topic `\map`
 and change your fixed frame into `\odom` or any desired fixed frame
 ### 2nd window: 
 ```
-ros2 launch slam_toolbox online_async_launch.py
-slam_params_file:=./src/articubot_one/config/mapper_params_online_async.yaml
-use_sim_time:=false
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/articubot_one/config/mapper_params_online_async.yaml use_sim_time:=false
 ```
 ### 3rd window: 
 ```
-ros2 run teleop_twist_keyboard teleop_twist_keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --param key_timeout:=0.1
 ```
 Make sure you have all plugins and dependencies installed
 * Twist mux
