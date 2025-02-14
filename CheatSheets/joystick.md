@@ -24,11 +24,14 @@ if you're not comfortable with it change the "joystick.yaml" file code. in the l
 ```
 require_enable_button: false
 ```
-# Troubleshooting (optional)
+```
+ros2 run joy joy_node
+```
 if the above doesn't work run in the terminal:
 ```
 ros2 topic echo /joy
 ```
+
 Move your joystick around. If you see no messages, the joystick isn't configured or detected properly by joy_node.
 If /joy works, continue to the next step.
 
@@ -38,12 +41,9 @@ ros2 topic echo /cmd_vel_joy
 ```
 Check that teleop_twist_joy is receiving /joy and publishing to /cmd_vel_joy
 
-# New package for joystick control
-```
-ros2 run joy joy_node
-```
-```
-ros2 run joystick_teleop joystick_serial
-```
+
 # Go real
+```
+ros2 run articubot_one joystick.launch.py
+```
 if the above works you're ready to test with the raspberry pi
