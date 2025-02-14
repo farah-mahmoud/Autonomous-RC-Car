@@ -1,6 +1,6 @@
 # Project cheat sheet (Big Hero 6 Edition)
 
-## Raspberry pi4
+## -> Raspberry pi4 
 * power the Rpi and connect it to the same network as the dev machine
 * open a terminal with 2 tabs, 3 windows each
 * in each window of the 3 of the First tab run 
@@ -44,7 +44,7 @@ Press Ctrl + A, then K, then Y to exit.
 ** Make sure Lidar and Arduino are connected to the Rpi
 
 
-## Dev machine
+## -> Dev machine
 ``` 
 sudo apt update
 sudo apt upgrade
@@ -63,7 +63,8 @@ add your components:
 * map with topic `\map`
 and change your fixed frame into `\odom` or any desired fixed frame
 
-<mark>SLAM</mark>
+## SLAM
+
 ### 2nd window: 
 ```
 ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/articubot_one/config/mapper_params_online_async.yaml use_sim_time:=false
@@ -74,7 +75,8 @@ Make sure you have all plugins and dependencies installed
 * Slam_toolbox
 * Etc.
 
-<mark style="background-color: lightblue">Navigation</mark>```
+## Navigation
+```
 ros2 launch nav2_birngup navigation_launch.py --ros-args use_sim_time:=false
 ```
 For mapping and saving the map
