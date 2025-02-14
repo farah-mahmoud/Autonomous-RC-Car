@@ -74,8 +74,7 @@ Make sure you have all plugins and dependencies installed
 * Slam_toolbox
 * Etc.
 
-<mark>NAVIGATION</mark>
-```
+<mark style="background-color: lightblue">Navigation</mark>```
 ros2 launch nav2_birngup navigation_launch.py --ros-args use_sim_time:=false
 ```
 For mapping and saving the map
