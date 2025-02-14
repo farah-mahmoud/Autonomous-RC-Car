@@ -1,4 +1,4 @@
-# Project cheat sheet
+# Project cheat sheet (Big Hero 6 Edition)
 
 ## Raspberry pi4
 * power the Rpi and connect it to the same network as the dev machine
@@ -12,38 +12,37 @@ ssh -o ServerAliveInterval=60 pi@192.168.xxx.12
 
 <b> Now that you have 3 opened windows connected to Rpi through SSH <b>
 
-Run in each window
-```
-cd ros2_ws
-```
-
 ### 1st window: 
 ```
 ros2 launch articubot_one launch_robot.launch.py
 ```
-### 2nd window : 
+### 2nd window:
 ```
 ros2 launch articubot_one rplidar.launch.py
 ```
-or run the command of rplidar_composition from history
+or run the command of rplidar_composition
 ```
 ros2 run rplidar_ros rplidar_composition
 ```
-### 3rd window : 
+### 3rd window: 
 ```
 ros2 run teleop_serial teleop_serial
 ```  
-
-[SOLVED]  
-*Change between ACM0 and ACM1 in the node script if it gives an error*
-
-<b> Note that you should run the above run lines on the Raspberry pi4 <b>
-** Make sure Lidar and Arduino are connected to the Rpi
 ### 4th window:
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+### 5th window (optional for troubleshooting):
 ```
 screen /dev/ttyACM0 115200
 ```
 Press Ctrl + A, then K, then Y to exit.
+
+[SOLVED]  *Change between ACM0 and ACM1 in the node script if it gives an error*
+
+<b> Note that you should run the above run lines on the Raspberry pi4 <b>
+** Make sure Lidar and Arduino are connected to the Rpi
+
 
 ## Dev machine
 ``` 
@@ -52,7 +51,6 @@ sudo apt upgrade
 ```
 *Make sure that you have the package downloaded in a workspace
 Open the second tab (with 3 windows)
-* Change directory to the workspace that contains package : `cd ur_ws`
 
 ### 1st window :
 ```
@@ -64,13 +62,11 @@ add your components:
 * Lidar with topic `\scan`
 * map with topic `\map`
 and change your fixed frame into `\odom` or any desired fixed frame
+
+<mark>SLAM</mark>
 ### 2nd window: 
 ```
 ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/articubot_one/config/mapper_params_online_async.yaml use_sim_time:=false
-```
-### 3rd window: 
-```
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --param key_timeout:=0.1
 ```
 Make sure you have all plugins and dependencies installed
 * Twist mux
@@ -78,7 +74,7 @@ Make sure you have all plugins and dependencies installed
 * Slam_toolbox
 * Etc.
 
-For navigation (Dev machine)
+<mark>NAVIGATION</mark>
 ```
 ros2 launch nav2_birngup navigation_launch.py --ros-args use_sim_time:=false
 ```
