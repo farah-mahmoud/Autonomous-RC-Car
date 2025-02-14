@@ -85,7 +85,7 @@ ros2 launch nav2_birngup navigation_launch.py --ros-args use_sim_time:=false
 For mapping and saving the map
 In a new tab run:
 ```
-ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=<	MAP_NAME>.yaml
+ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=<MAP_NAME>.yaml
 ```
 then you will need to activate the node with in another tab
 ```
