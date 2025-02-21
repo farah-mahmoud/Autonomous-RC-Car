@@ -1,0 +1,9 @@
+source;share/serial_comm/hook/pythonpath.ps1
+source;share/serial_comm/hook/pythonpath.dsv
+source;share/serial_comm/hook/pythonpath.sh
+source;share/serial_comm/hook/ament_prefix_path.ps1
+source;share/serial_comm/hook/ament_prefix_path.dsv
+source;share/serial_comm/hook/ament_prefix_path.sh
+source;../../build/serial_comm/share/serial_comm/hook/pythonpath_develop.ps1
+source;../../build/serial_comm/share/serial_comm/hook/pythonpath_develop.dsv
+source;../../build/serial_comm/share/serial_comm/hook/pythonpath_develop.sh

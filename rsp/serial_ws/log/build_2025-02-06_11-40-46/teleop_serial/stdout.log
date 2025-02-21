@@ -1,0 +1,32 @@
+running develop
+Removing /home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages/teleop-serial.egg-link (link to .)
+running egg_info
+writing ../../build/teleop_serial/teleop_serial.egg-info/PKG-INFO
+writing dependency_links to ../../build/teleop_serial/teleop_serial.egg-info/dependency_links.txt
+writing entry points to ../../build/teleop_serial/teleop_serial.egg-info/entry_points.txt
+writing requirements to ../../build/teleop_serial/teleop_serial.egg-info/requires.txt
+writing top-level names to ../../build/teleop_serial/teleop_serial.egg-info/top_level.txt
+reading manifest file '../../build/teleop_serial/teleop_serial.egg-info/SOURCES.txt'
+writing manifest file '../../build/teleop_serial/teleop_serial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/serial_ws/build/teleop_serial/build
+creating /home/pi/serial_ws/build/teleop_serial/build/lib
+creating /home/pi/serial_ws/build/teleop_serial/build/lib/teleop_serial
+copying teleop_serial/teleop_serial.py -> /home/pi/serial_ws/build/teleop_serial/build/lib/teleop_serial
+copying teleop_serial/__init__.py -> /home/pi/serial_ws/build/teleop_serial/build/lib/teleop_serial
+running install
+running install_lib
+creating /home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages/teleop_serial
+copying /home/pi/serial_ws/build/teleop_serial/build/lib/teleop_serial/teleop_serial.py -> /home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages/teleop_serial
+copying /home/pi/serial_ws/build/teleop_serial/build/lib/teleop_serial/__init__.py -> /home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages/teleop_serial
+byte-compiling /home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages/teleop_serial/teleop_serial.py to teleop_serial.cpython-38.pyc
+byte-compiling /home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages/teleop_serial/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/teleop_serial -> /home/pi/serial_ws/install/teleop_serial/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/serial_ws/install/teleop_serial/share/teleop_serial
+running install_egg_info
+Copying ../../build/teleop_serial/teleop_serial.egg-info to /home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages/teleop_serial-0.0.0-py3.8.egg-info
+running install_scripts
+Installing teleop_serial script to /home/pi/serial_ws/install/teleop_serial/lib/teleop_serial
+writing list of installed files to '/home/pi/serial_ws/build/teleop_serial/install.log'

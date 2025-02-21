@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000899] (serial_comm) JobQueued: {'identifier': 'serial_comm', 'dependencies': OrderedDict()}
+[0.001173] (teleop_serial) JobQueued: {'identifier': 'teleop_serial', 'dependencies': OrderedDict()}
+[0.001987] (serial_comm) JobStarted: {'identifier': 'serial_comm'}
+[0.042798] (teleop_serial) JobStarted: {'identifier': 'teleop_serial'}
+[0.099376] (-) TimerEvent: {}
+[0.200543] (-) TimerEvent: {}
+[0.301227] (-) TimerEvent: {}
+[0.401866] (-) TimerEvent: {}
+[0.502453] (-) TimerEvent: {}
+[0.602995] (-) TimerEvent: {}
+[0.703581] (-) TimerEvent: {}
+[0.804187] (-) TimerEvent: {}
+[0.904893] (-) TimerEvent: {}
+[1.006171] (-) TimerEvent: {}
+[1.106983] (-) TimerEvent: {}
+[1.207698] (-) TimerEvent: {}
+[1.308412] (-) TimerEvent: {}
+[1.408992] (-) TimerEvent: {}
+[1.509600] (-) TimerEvent: {}
+[1.610193] (-) TimerEvent: {}
+[1.710805] (-) TimerEvent: {}
+[1.811604] (-) TimerEvent: {}
+[1.912936] (-) TimerEvent: {}
+[2.013965] (-) TimerEvent: {}
+[2.114622] (-) TimerEvent: {}
+[2.215444] (-) TimerEvent: {}
+[2.316223] (-) TimerEvent: {}
+[2.416848] (-) TimerEvent: {}
+[2.517474] (-) TimerEvent: {}
+[2.618118] (-) TimerEvent: {}
+[2.718813] (-) TimerEvent: {}
+[2.819535] (-) TimerEvent: {}
+[2.920186] (-) TimerEvent: {}
+[3.020872] (-) TimerEvent: {}
+[3.121623] (-) TimerEvent: {}
+[3.222256] (-) TimerEvent: {}
+[3.322902] (-) TimerEvent: {}
+[3.423638] (-) TimerEvent: {}
+[3.524443] (-) TimerEvent: {}
+[3.625915] (-) TimerEvent: {}
+[3.626998] (serial_comm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/serial_ws/build/serial_comm/build', '--no-deps', 'symlink_data'], 'cwd': '/home/pi/serial_ws/build/serial_comm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.73.79 50532 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/diffdrive_arduino/lib:/home/pi/ros2_ws/install/serial/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install:/home/pi/serial_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/serial_motor:/home/pi/ros2_ws/install/diffdrive_arduino:/home/pi/ros2_ws/install/serial:/home/pi/ros2_ws/install/articubot_one:/home/pi/serial_ws/install/teleop_serial:/home/pi/serial_ws/install/serial_comm:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/pi/serial_ws/build/serial_comm', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.73.79 50532 192.168.73.12 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/serial_ws/build/serial_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages:/home/pi/ros2_ws/build/serial_motor:/home/pi/ros2_ws/install/serial_motor/lib/python3.8/site-packages:/home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages:/home/pi/serial_ws/build/serial_comm:/home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/diffdrive_arduino:/home/pi/ros2_ws/install/serial:/home/pi/ros2_ws/install/articubot_one'}, 'shell': False}
+[3.671571] (teleop_serial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/serial_ws/build/teleop_serial/build', '--no-deps', 'symlink_data'], 'cwd': '/home/pi/serial_ws/build/teleop_serial', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.73.79 50532 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/diffdrive_arduino/lib:/home/pi/ros2_ws/install/serial/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install:/home/pi/serial_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/serial_motor:/home/pi/ros2_ws/install/diffdrive_arduino:/home/pi/ros2_ws/install/serial:/home/pi/ros2_ws/install/articubot_one:/home/pi/serial_ws/install/teleop_serial:/home/pi/serial_ws/install/serial_comm:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/pi/serial_ws/build/teleop_serial', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.73.79 50532 192.168.73.12 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/serial_ws/build/teleop_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages:/home/pi/ros2_ws/build/serial_motor:/home/pi/ros2_ws/install/serial_motor/lib/python3.8/site-packages:/home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages:/home/pi/serial_ws/build/serial_comm:/home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/diffdrive_arduino:/home/pi/ros2_ws/install/serial:/home/pi/ros2_ws/install/articubot_one'}, 'shell': False}
+[3.726148] (-) TimerEvent: {}
+[3.826959] (-) TimerEvent: {}
+[3.927687] (-) TimerEvent: {}
+[4.028390] (-) TimerEvent: {}
+[4.129031] (-) TimerEvent: {}
+[4.229648] (-) TimerEvent: {}
+[4.330306] (-) TimerEvent: {}
+[4.430934] (-) TimerEvent: {}
+[4.531619] (-) TimerEvent: {}
+[4.632344] (-) TimerEvent: {}
+[4.681381] (serial_comm) StdoutLine: {'line': b'running develop\n'}
+[4.712150] (teleop_serial) StdoutLine: {'line': b'running develop\n'}
+[4.732468] (-) TimerEvent: {}
+[4.833094] (-) TimerEvent: {}
+[4.933746] (-) TimerEvent: {}
+[5.034360] (-) TimerEvent: {}
+[5.135057] (-) TimerEvent: {}
+[5.235688] (-) TimerEvent: {}
+[5.287545] (serial_comm) StdoutLine: {'line': b'running egg_info\n'}
+[5.288260] (serial_comm) StdoutLine: {'line': b'writing serial_comm.egg-info/PKG-INFO\n'}
+[5.289334] (serial_comm) StdoutLine: {'line': b'writing dependency_links to serial_comm.egg-info/dependency_links.txt\n'}
+[5.290135] (serial_comm) StdoutLine: {'line': b'writing entry points to serial_comm.egg-info/entry_points.txt\n'}
+[5.290875] (serial_comm) StdoutLine: {'line': b'writing requirements to serial_comm.egg-info/requires.txt\n'}
+[5.291572] (serial_comm) StdoutLine: {'line': b'writing top-level names to serial_comm.egg-info/top_level.txt\n'}
+[5.319947] (teleop_serial) StdoutLine: {'line': b'running egg_info\n'}
+[5.320565] (teleop_serial) StdoutLine: {'line': b'writing teleop_serial.egg-info/PKG-INFO\n'}
+[5.321591] (teleop_serial) StdoutLine: {'line': b'writing dependency_links to teleop_serial.egg-info/dependency_links.txt\n'}
+[5.322600] (teleop_serial) StdoutLine: {'line': b'writing entry points to teleop_serial.egg-info/entry_points.txt\n'}
+[5.323465] (teleop_serial) StdoutLine: {'line': b'writing requirements to teleop_serial.egg-info/requires.txt\n'}
+[5.324170] (teleop_serial) StdoutLine: {'line': b'writing top-level names to teleop_serial.egg-info/top_level.txt\n'}
+[5.335833] (-) TimerEvent: {}
+[5.418223] (serial_comm) StdoutLine: {'line': b"reading manifest file 'serial_comm.egg-info/SOURCES.txt'\n"}
+[5.421631] (serial_comm) StdoutLine: {'line': b"writing manifest file 'serial_comm.egg-info/SOURCES.txt'\n"}
+[5.435962] (-) TimerEvent: {}
+[5.452069] (teleop_serial) StdoutLine: {'line': b"reading manifest file 'teleop_serial.egg-info/SOURCES.txt'\n"}
+[5.455362] (teleop_serial) StdoutLine: {'line': b"writing manifest file 'teleop_serial.egg-info/SOURCES.txt'\n"}
+[5.536096] (-) TimerEvent: {}
+[5.586105] (serial_comm) StdoutLine: {'line': b'running build_ext\n'}
+[5.587562] (serial_comm) StdoutLine: {'line': b'Creating /home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages/serial-comm.egg-link (link to .)\n'}
+[5.591872] (serial_comm) StdoutLine: {'line': b'Installing serial_node script to /home/pi/serial_ws/install/serial_comm/lib/serial_comm\n'}
+[5.593641] (serial_comm) StdoutLine: {'line': b'\n'}
+[5.594335] (serial_comm) StdoutLine: {'line': b'Installed /home/pi/serial_ws/build/serial_comm\n'}
+[5.594846] (serial_comm) StdoutLine: {'line': b'running symlink_data\n'}
+[5.636348] (-) TimerEvent: {}
+[5.657287] (teleop_serial) StdoutLine: {'line': b'running build_ext\n'}
+[5.659341] (teleop_serial) StdoutLine: {'line': b'Creating /home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages/teleop-serial.egg-link (link to .)\n'}
+[5.667081] (teleop_serial) StdoutLine: {'line': b'Installing teleop_serial script to /home/pi/serial_ws/install/teleop_serial/lib/teleop_serial\n'}
+[5.669685] (teleop_serial) StdoutLine: {'line': b'\n'}
+[5.671012] (teleop_serial) StdoutLine: {'line': b'Installed /home/pi/serial_ws/build/teleop_serial\n'}
+[5.672230] (teleop_serial) StdoutLine: {'line': b'running symlink_data\n'}
+[5.736696] (-) TimerEvent: {}
+[5.747330] (serial_comm) CommandEnded: {'returncode': 0}
+[5.825654] (serial_comm) JobEnded: {'identifier': 'serial_comm', 'rc': 0}
+[5.830866] (teleop_serial) CommandEnded: {'returncode': 0}
+[5.836783] (-) TimerEvent: {}
+[5.866174] (teleop_serial) JobEnded: {'identifier': 'teleop_serial', 'rc': 0}
+[5.868796] (-) EventReactorShutdown: {}

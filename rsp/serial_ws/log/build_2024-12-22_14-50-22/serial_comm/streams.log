@@ -1,0 +1,25 @@
+[2.849s] Invoking command in '/home/pi/serial_ws/build/serial_comm': PYTHONPATH=/home/pi/serial_ws/build/serial_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/serial_ws/build/serial_comm/build --no-deps symlink_data
+[3.721s] running develop
+[4.204s] running egg_info
+[4.204s] creating serial_comm.egg-info
+[4.205s] writing serial_comm.egg-info/PKG-INFO
+[4.205s] writing dependency_links to serial_comm.egg-info/dependency_links.txt
+[4.206s] writing entry points to serial_comm.egg-info/entry_points.txt
+[4.206s] writing requirements to serial_comm.egg-info/requires.txt
+[4.207s] writing top-level names to serial_comm.egg-info/top_level.txt
+[4.222s] writing manifest file 'serial_comm.egg-info/SOURCES.txt'
+[4.338s] reading manifest file 'serial_comm.egg-info/SOURCES.txt'
+[4.340s] writing manifest file 'serial_comm.egg-info/SOURCES.txt'
+[4.481s] running build_ext
+[4.483s] Creating /home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages/site.py
+[4.491s] Creating /home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages/serial-comm.egg-link (link to .)
+[4.493s] Installing serial_node script to /home/pi/serial_ws/install/serial_comm/lib/serial_comm
+[4.495s] 
+[4.495s] Installed /home/pi/serial_ws/build/serial_comm
+[4.496s] running symlink_data
+[4.496s] creating /home/pi/serial_ws/install/serial_comm/share/ament_index
+[4.496s] creating /home/pi/serial_ws/install/serial_comm/share/ament_index/resource_index
+[4.497s] creating /home/pi/serial_ws/install/serial_comm/share/ament_index/resource_index/packages
+[4.498s] symbolically linking /home/pi/serial_ws/build/serial_comm/resource/serial_comm -> /home/pi/serial_ws/install/serial_comm/share/ament_index/resource_index/packages
+[4.499s] symbolically linking /home/pi/serial_ws/build/serial_comm/package.xml -> /home/pi/serial_ws/install/serial_comm/share/serial_comm
+[4.612s] Invoked command in '/home/pi/serial_ws/build/serial_comm' returned '0': PYTHONPATH=/home/pi/serial_ws/build/serial_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/serial_ws/build/serial_comm/build --no-deps symlink_data

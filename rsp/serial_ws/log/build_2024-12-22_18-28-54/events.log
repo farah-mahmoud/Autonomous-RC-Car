@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000906] (serial_comm) JobQueued: {'identifier': 'serial_comm', 'dependencies': OrderedDict()}
+[0.001718] (serial_comm) JobStarted: {'identifier': 'serial_comm'}
+[0.099247] (-) TimerEvent: {}
+[0.200086] (-) TimerEvent: {}
+[0.300727] (-) TimerEvent: {}
+[0.401319] (-) TimerEvent: {}
+[0.501909] (-) TimerEvent: {}
+[0.602565] (-) TimerEvent: {}
+[0.703276] (-) TimerEvent: {}
+[0.803920] (-) TimerEvent: {}
+[0.904630] (-) TimerEvent: {}
+[1.005592] (-) TimerEvent: {}
+[1.106432] (-) TimerEvent: {}
+[1.207006] (-) TimerEvent: {}
+[1.307683] (-) TimerEvent: {}
+[1.408300] (-) TimerEvent: {}
+[1.508944] (-) TimerEvent: {}
+[1.609522] (-) TimerEvent: {}
+[1.710206] (-) TimerEvent: {}
+[1.810870] (-) TimerEvent: {}
+[1.911521] (-) TimerEvent: {}
+[2.012142] (-) TimerEvent: {}
+[2.112877] (-) TimerEvent: {}
+[2.213961] (-) TimerEvent: {}
+[2.314673] (-) TimerEvent: {}
+[2.415368] (-) TimerEvent: {}
+[2.469952] (serial_comm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/serial_ws/build/serial_comm/build', '--no-deps', 'symlink_data'], 'cwd': '/home/pi/serial_ws/build/serial_comm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.245.79 58096 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/diffdrive_arduino/lib:/home/pi/ros2_ws/install/serial/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/serial_motor:/home/pi/ros2_ws/install/diffdrive_arduino:/home/pi/ros2_ws/install/serial:/home/pi/ros2_ws/install/articubot_one:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/pi/serial_ws/build/serial_comm', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.245.79 58096 192.168.245.12 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/serial_ws/build/serial_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages:/home/pi/ros2_ws/build/serial_motor:/home/pi/ros2_ws/install/serial_motor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/diffdrive_arduino:/home/pi/ros2_ws/install/serial:/home/pi/ros2_ws/install/articubot_one'}, 'shell': False}
+[2.515529] (-) TimerEvent: {}
+[2.616304] (-) TimerEvent: {}
+[2.716934] (-) TimerEvent: {}
+[2.817770] (-) TimerEvent: {}
+[2.918411] (-) TimerEvent: {}
+[3.019114] (-) TimerEvent: {}
+[3.119700] (-) TimerEvent: {}
+[3.220489] (-) TimerEvent: {}
+[3.321139] (-) TimerEvent: {}
+[3.385340] (serial_comm) StdoutLine: {'line': b'running develop\n'}
+[3.421292] (-) TimerEvent: {}
+[3.521940] (-) TimerEvent: {}
+[3.622696] (-) TimerEvent: {}
+[3.723301] (-) TimerEvent: {}
+[3.823924] (-) TimerEvent: {}
+[3.912803] (serial_comm) StdoutLine: {'line': b'running egg_info\n'}
+[3.913491] (serial_comm) StdoutLine: {'line': b'writing serial_comm.egg-info/PKG-INFO\n'}
+[3.914391] (serial_comm) StdoutLine: {'line': b'writing dependency_links to serial_comm.egg-info/dependency_links.txt\n'}
+[3.915216] (serial_comm) StdoutLine: {'line': b'writing entry points to serial_comm.egg-info/entry_points.txt\n'}
+[3.915893] (serial_comm) StdoutLine: {'line': b'writing requirements to serial_comm.egg-info/requires.txt\n'}
+[3.916481] (serial_comm) StdoutLine: {'line': b'writing top-level names to serial_comm.egg-info/top_level.txt\n'}
+[3.924051] (-) TimerEvent: {}
+[4.024743] (-) TimerEvent: {}
+[4.035634] (serial_comm) StdoutLine: {'line': b"reading manifest file 'serial_comm.egg-info/SOURCES.txt'\n"}
+[4.039653] (serial_comm) StdoutLine: {'line': b"writing manifest file 'serial_comm.egg-info/SOURCES.txt'\n"}
+[4.124842] (-) TimerEvent: {}
+[4.187357] (serial_comm) StdoutLine: {'line': b'running build_ext\n'}
+[4.189401] (serial_comm) StdoutLine: {'line': b'Creating /home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages/serial-comm.egg-link (link to .)\n'}
+[4.192872] (serial_comm) StdoutLine: {'line': b'Installing serial_node script to /home/pi/serial_ws/install/serial_comm/lib/serial_comm\n'}
+[4.194132] (serial_comm) StdoutLine: {'line': b'\n'}
+[4.194779] (serial_comm) StdoutLine: {'line': b'Installed /home/pi/serial_ws/build/serial_comm\n'}
+[4.195107] (serial_comm) StdoutLine: {'line': b'running symlink_data\n'}
+[4.225073] (-) TimerEvent: {}
+[4.310663] (serial_comm) CommandEnded: {'returncode': 0}
+[4.325820] (-) TimerEvent: {}
+[4.367235] (serial_comm) JobEnded: {'identifier': 'serial_comm', 'rc': 0}
+[4.370313] (-) EventReactorShutdown: {}

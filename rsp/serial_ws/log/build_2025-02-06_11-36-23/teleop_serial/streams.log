@@ -1,0 +1,25 @@
+[4.087s] Invoking command in '/home/pi/serial_ws/build/teleop_serial': PYTHONPATH=/home/pi/serial_ws/build/teleop_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/serial_ws/build/teleop_serial/build --no-deps symlink_data
+[5.113s] running develop
+[5.713s] running egg_info
+[5.715s] creating teleop_serial.egg-info
+[5.716s] writing teleop_serial.egg-info/PKG-INFO
+[5.717s] writing dependency_links to teleop_serial.egg-info/dependency_links.txt
+[5.718s] writing entry points to teleop_serial.egg-info/entry_points.txt
+[5.719s] writing requirements to teleop_serial.egg-info/requires.txt
+[5.719s] writing top-level names to teleop_serial.egg-info/top_level.txt
+[5.730s] writing manifest file 'teleop_serial.egg-info/SOURCES.txt'
+[5.855s] reading manifest file 'teleop_serial.egg-info/SOURCES.txt'
+[5.858s] writing manifest file 'teleop_serial.egg-info/SOURCES.txt'
+[6.033s] running build_ext
+[6.034s] Creating /home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages/site.py
+[6.043s] Creating /home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages/teleop-serial.egg-link (link to .)
+[6.050s] Installing teleop_serial script to /home/pi/serial_ws/install/teleop_serial/lib/teleop_serial
+[6.053s] 
+[6.055s] Installed /home/pi/serial_ws/build/teleop_serial
+[6.056s] running symlink_data
+[6.058s] creating /home/pi/serial_ws/install/teleop_serial/share/ament_index
+[6.059s] creating /home/pi/serial_ws/install/teleop_serial/share/ament_index/resource_index
+[6.061s] creating /home/pi/serial_ws/install/teleop_serial/share/ament_index/resource_index/packages
+[6.063s] symbolically linking /home/pi/serial_ws/build/teleop_serial/resource/teleop_serial -> /home/pi/serial_ws/install/teleop_serial/share/ament_index/resource_index/packages
+[6.065s] symbolically linking /home/pi/serial_ws/build/teleop_serial/package.xml -> /home/pi/serial_ws/install/teleop_serial/share/teleop_serial
+[6.291s] Invoked command in '/home/pi/serial_ws/build/teleop_serial' returned '0': PYTHONPATH=/home/pi/serial_ws/build/teleop_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/serial_ws/install/teleop_serial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/serial_ws/build/teleop_serial/build --no-deps symlink_data

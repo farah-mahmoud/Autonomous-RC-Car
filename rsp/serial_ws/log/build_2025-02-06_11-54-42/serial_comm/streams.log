@@ -1,0 +1,17 @@
+[3.712s] Invoking command in '/home/pi/serial_ws/build/serial_comm': PYTHONPATH=/home/pi/serial_ws/build/serial_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/serial_ws/build/serial_comm/build --no-deps symlink_data
+[4.782s] running develop
+[5.406s] running egg_info
+[5.406s] writing serial_comm.egg-info/PKG-INFO
+[5.407s] writing dependency_links to serial_comm.egg-info/dependency_links.txt
+[5.408s] writing entry points to serial_comm.egg-info/entry_points.txt
+[5.410s] writing requirements to serial_comm.egg-info/requires.txt
+[5.411s] writing top-level names to serial_comm.egg-info/top_level.txt
+[5.541s] reading manifest file 'serial_comm.egg-info/SOURCES.txt'
+[5.544s] writing manifest file 'serial_comm.egg-info/SOURCES.txt'
+[5.723s] running build_ext
+[5.724s] Creating /home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages/serial-comm.egg-link (link to .)
+[5.728s] Installing serial_node script to /home/pi/serial_ws/install/serial_comm/lib/serial_comm
+[5.730s] 
+[5.731s] Installed /home/pi/serial_ws/build/serial_comm
+[5.732s] running symlink_data
+[5.907s] Invoked command in '/home/pi/serial_ws/build/serial_comm' returned '0': PYTHONPATH=/home/pi/serial_ws/build/serial_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/serial_ws/install/serial_comm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/serial_ws/build/serial_comm/build --no-deps symlink_data

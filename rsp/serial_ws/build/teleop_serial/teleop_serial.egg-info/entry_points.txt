@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_serial = teleop_serial.teleop_serial:main
+
