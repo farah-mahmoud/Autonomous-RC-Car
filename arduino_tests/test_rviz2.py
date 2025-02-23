@@ -1,18 +1,24 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-import rospy
+import rclpy
+from rclpy.node import Node
 from std_msgs.msg import Bool
 from geometry_msgs.msg import Twist
 
-class ToggleControl:
+class ToggleControl(Node):
     def __init__(self):
-        rospy.init_node("toggle_controller")
+        super().__init__("toggle_controller")
 
         # Subscriber to RViz button (assumed Bool message type)
-        rospy.Subscriber("/rviz_button", Bool, self.button_callback)
+        self.subscription = self.create_subscription(
+            Bool,
+            "/rviz_button",
+            self.button_callback,
+            10
+        )
 
         # Publisher to control robot movement
-        self.cmd_pub = rospy.Publisher("/cmd_vel", Twist, queue_size=10)
+        self.cmd_pub = self.create_publisher(Twist, "/cmd_vel", 10)
 
         self.is_moving = False  # Toggle state
 
@@ -27,7 +33,14 @@ class ToggleControl:
                 twist_msg.linear.x = 0.0  # Stop
 
             self.cmd_pub.publish(twist_msg)
+            self.get_logger().info(f"Robot {'moving' if self.is_moving else 'stopped'}")
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = ToggleControl()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
 
 if __name__ == "__main__":
-    ToggleControl()
-    rospy.spin()
+    main()
