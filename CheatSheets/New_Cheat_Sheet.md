@@ -32,6 +32,9 @@ ros2 run teleop_serial teleop_serial
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
+```
+ros2 run teleop_serial rviz_persistent --ros-args --remap /cmd_vel_rviz:=/cmd_vel
+```
 ### 5th window (optional for troubleshooting):
 ```
 screen /dev/ttyACM0 115200
