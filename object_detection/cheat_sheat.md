@@ -6,7 +6,7 @@ This guide covers running two object detection models on a Raspberry Pi 4 using 
 - **MobileNet SSD V2** (Standalone Python)
 - **YOLOv5** (ROS 2 Foxy Integration)
 
-Keep in mind that our rpi4 has ubuntu 20.04 installed, so if you're intending to get pi camera v3 you'll have software compatibility issues with libcamera.
+Keep in mind that our rpi4 has ubuntu 20.04 installed, so if you're intending to get pi camera v3 you'll encounter software incompatibility issues with libcamera.
 Consider using pi camera v2 with v4l2 library or upgrading to ubuntu 22 or higher.
 
 ---
