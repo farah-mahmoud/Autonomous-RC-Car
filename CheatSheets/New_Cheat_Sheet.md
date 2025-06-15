@@ -72,6 +72,10 @@ and change your fixed frame into `\odom` or any desired fixed frame
 ```
 ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/articubot_one/config/mapper_params_online_async.yaml use_sim_time:=false
 ```
+farah's
+```
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/farah_ws/config/mapper_params_online_async.yaml use_sim_time:=false
+```
 Make sure you have all plugins and dependencies installed
 * Twist mux
 * Navigation and nav2_bringup
