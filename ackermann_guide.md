@@ -8,6 +8,14 @@ run rviz2 to visualize:
 ```bash
 rviz2
 ```
+### If you have experienced issues in joints, base_link or anything  
+generate frames.pdf for troubleshooting
+```bash
+ros2 run tf2_tools view_frames
+```
+if everything is set correctly you should see:
+![image](https://github.com/user-attachments/assets/c0f20abf-2d63-4518-beb3-4413ff08312e)
+
 in tkio_ros you'll find the 2 main nodes containing all the logic  
 one for open loop estimation
 and the other calculates and publishes odom, joint states and TF feedback from arduino  
