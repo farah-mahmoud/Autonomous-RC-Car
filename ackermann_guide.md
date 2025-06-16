@@ -1,13 +1,14 @@
 ### Inside `farah_ws`
-to publish odom, robot state publisher, and joint states
+to publish robot state publisher
 ```bash
 ros2 launch race_it hardware_launch.py
 ````
 in tkio_ros you'll find the 2 main nodes containing all the logic
 one for open loop estimation
-and the other uses only imu for feedback from arduino
+and the other calculates and publishes odom, joint states and TF feedback from arduino
+use either one.
 
-make sure to have the arduino connected
+make sure to have the arduino connected and all your sensors (imu, ir on shaft, lidar)
 
 to move the robot and also make sure to have the arduino connected
 submit node is the same as teleop_twist_keyboard (manual control)
@@ -21,12 +22,34 @@ run rviz2 to visualize:
 ```bash
 rviz2
 ```
-> ✅ **Reminder:** Make sure to build and source inside each workspace before running any commands.
+### To start SLAM
 
----
-### for navigation alongside SLAM
+#### first start lidar to get the scan topic (cruical for SLAM and Nav2)
+```bash
+ros2 run rplidar_ros rplidar_composition
+```
+OR
+```bash
+ros2 launch race_it rplidar.launch.py
+```
+We still have power issues so you have to randomly plug/unplug lidar and try the 2 commands till success
+Consider butying a good adapter and a power bank and also a reliabe micro USB cable for to make it work
+
+#### Then start SLAM
+```bash
+ros2 launch race_it online_asynch_launch.py
+```
+once you finish save the map
+### To save the map inside folder (maps) to use it again for navigation
 
 ```bash
-ros2 launch race_it navigation_launch.py
+ros2 run nav2_map_server map_saver_cli -f ~/farah_ws/src/maps/my_map
 ````
-you can find all navigation parameters in config folder
+you can find all navigation and SLAM parameters in config folder
+
+### For Navigation:
+```bash
+ros2 launch race_it nav2_bringup_launch.py
+````
+and give a set point on rviz for the car to move there
+
