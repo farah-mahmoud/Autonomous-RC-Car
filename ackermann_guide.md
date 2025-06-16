@@ -53,6 +53,17 @@ once you finish save the map
 ```bash
 ros2 run nav2_map_server map_saver_cli -f ~/farah_ws/src/maps/my_map
 ````
+
+#### To record SLAM
+
+```bash
+ros2 bag record -o slam_record /scan /tf /tf_static /odom /map /amcl_pose
+```
+#### Replay with
+
+```bash
+ros2 bag play slam_record
+```
 you can find all navigation and SLAM parameters in config folder
 
 ### For Navigation:
