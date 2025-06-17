@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="simple_car">
+    <ros2_control name="carbot" type="system">
+        <hardware>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+                        
+            <!-- 
+            <plugin>ros2_control_demo_example_11/CarlikeBotSystemHardware</plugin>
+            <param name="example_param_hw_start_duration_sec">0</param>
+            <param name="example_param_hw_stop_duration_sec">3.0</param>
+            <param name="is_simulation">1</param>
+            -->       
+        </hardware>
+        
+        <!-- Front Left Wheel -->        
+        <joint name="front_left_hinge_joint">
+            <command_interface name="position"/>
+            <state_interface name="position" />
+        </joint>     
+      
+        <!-- Front Right Wheel -->         
+        <joint name="front_right_hinge_joint">
+          <command_interface name="position"/>
+          <state_interface name="position" />
+        </joint>       
+          
+        <!-- Rear Left Wheel -->          
+        <joint name="rear_left_joint">
+            <command_interface name="velocity"/>
+            <state_interface name="velocity" />
+        </joint>
+            
+        <!-- Rear Right Wheel -->            
+        <joint name="rear_right_joint">
+            <command_interface name="velocity"/>
+            <state_interface name="velocity" />
+        </joint>      
+    </ros2_control>
+    
+    <gazebo>
+        <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control"> 
+            
+            <ros> 
+                <remapping>asc/reference_unstamped:=cmd_vel</remapping>       
+                <remapping>asc/odometry:=odom</remapping> 
+                <remapping>asc/tf_odometry:=tf</remapping> 
+                <robot_base_frame>base_link</robot_base_frame>
+
+            </ros> 
+            <parameters>$(find race_it)/config/controller/my_controllers.yaml</parameters>
+        </plugin>
+    </gazebo>
+    
+</robot>
+

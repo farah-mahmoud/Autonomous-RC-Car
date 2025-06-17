@@ -1,0 +1,23 @@
+amcl:
+  ros__parameters:
+    use_map_topic: true
+    first_map_only: false
+    base_frame_id: "base_link"
+    odom_frame_id: "odom"
+    scan_topic: "scan"
+    min_particles: 100
+    max_particles: 5000
+    alpha1: 0.2
+    alpha2: 0.2
+    alpha3: 0.2
+    alpha4: 0.2
+    alpha5: 0.2
+    do_beamskip: false
+    update_min_d: 0.1
+    update_min_a: 0.1
+    resample_interval: 1
+    transform_tolerance: 0.2
+    recovery_alpha_slow: 0.0
+    recovery_alpha_fast: 0.0
+    max_beams: 60
+    laser_max_range: 12.0

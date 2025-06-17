@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="simple_car">
+
+  <!-- Include shared macros for inertial definitions -->
+  <xacro:include filename="inertial.xacro"/>
+
+  <!-- definig colors -->
+  <material name="blue">
+    <color rgba="0 0 1 1"/>
+  </material>
+
+  <material name="red">
+    <color rgba="1 0 0 1"/>
+  </material>
+
+  <!-- Wheel and hinge properties -->
+  <xacro:property name="wheel_width" value="0.026"/>
+  <xacro:property name="wheel_radius" value="0.033"/>
+  <xacro:property name="hinge_width" value="0.008"/>
+  <xacro:property name="hinge_radius" value="0.0066"/>
+
+  <!-- Wheel macro -->
+  <xacro:macro name="wheel" params="name">
+    <link name="${name}">
+      <visual>
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 0"/>
+        <geometry>
+          <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+        </geometry>
+        <material name="blue"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 0"/>
+        <geometry>
+          <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_cylinder mass="0.1" length="${wheel_width}" radius="${wheel_radius}"/>
+    </link>
+  </xacro:macro>
+
+  <!-- Hinge macro -->
+  <xacro:macro name="hinge" params="name">
+    <link name="${name}">
+      <visual>
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 0"/>
+        <geometry>
+          <cylinder length="${hinge_width}" radius="${hinge_radius}"/>
+        </geometry>
+        <material name="blue"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 0"/>
+        <geometry>
+          <cylinder length="${hinge_width}" radius="${hinge_radius}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_cylinder mass="0.1" length="${hinge_width}" radius="${hinge_radius}"/>
+    </link>
+  </xacro:macro>
+
+  <!-- Base footprint and chassis -->
+  <link name="base_link"/>
+  <joint name="base_footprint_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_footprint"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="base_footprint"/>
+
+  <link name="chassis_link">
+    <visual>
+      <geometry>
+        <box size="0.4 0.2 0.1"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <xacro:inertial_box mass="0.5" x="0.4" y="0.2" z="0.1"/>
+  </link>
+  <joint name="base_chassis_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis_link"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Front left steering and wheel -->
+  <xacro:hinge name="front_left_hinge"/>
+  <joint name="front_left_hinge_joint" type="revolute">
+    <parent link="chassis_link"/>
+    <child link="front_left_hinge"/>
+    <origin xyz="0.15 0.104 -0.05" rpy="0 0 0"/>
+    <limit lower="-0.5236" upper="0.5236" velocity="20" effort="1"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+  <xacro:wheel name="front_left_link"/>
+  <joint name="front_left_joint" type="continuous">
+    <parent link="front_left_hinge"/>
+    <child link="front_left_link"/>
+    <origin xyz="0.0 0.017 0.0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- Front right steering and wheel -->
+  <xacro:hinge name="front_right_hinge"/>
+  <joint name="front_right_hinge_joint" type="revolute">
+    <parent link="chassis_link"/>
+    <child link="front_right_hinge"/>
+    <origin xyz="0.15 -0.104 -0.05" rpy="0 0 0"/>
+    <limit lower="-0.5236" upper="0.5236" velocity="20" effort="1"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+  <xacro:wheel name="front_right_link"/>
+  <joint name="front_right_joint" type="continuous">
+    <parent link="front_right_hinge"/>
+    <child link="front_right_link"/>
+    <origin xyz="0.0 -0.017 0.0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- Rear wheels -->
+  <xacro:wheel name="rear_left_link"/>
+  <joint name="rear_left_joint" type="continuous">
+    <parent link="chassis_link"/>
+    <child link="rear_left_link"/>
+    <origin xyz="-0.15 0.121 -0.05" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <xacro:wheel name="rear_right_link"/>
+  <joint name="rear_right_joint" type="continuous">
+    <parent link="chassis_link"/>
+    <child link="rear_right_link"/>
+    <origin xyz="-0.15 -0.121 -0.05" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- Include additional components (e.g., ROS2 ackermann) -->
+  <xacro:include filename="ros2_ack.xacro"/>
+
+  <!-- Laser frame mount -->
+  <joint name="laser_joint" type="fixed">
+    <parent link="chassis_link"/>
+    <child link="laser_frame"/>
+    <origin xyz="0.1 0.0 0.08" rpy="0 0 0"/>
+  </joint>
+  <link name="laser_frame">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+    </collision>
+    <xacro:inertial_cylinder mass="0.0001" length="0.04" radius="0.05"/>
+  </link>
+
+</robot>

@@ -1,0 +1,37 @@
+amcl:
+  ros__parameters:
+    use_map_topic: true
+
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 5.0     # Global planner updates 5 times per second
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"  # Use NavFn (Dijkstra-based) global planner
+      tolerance: 0.2                   # Acceptable goal error (m)
+      use_astar: false                # Use Dijkstra instead of A*
+      allow_unknown: true             # Allow planning through unknown (unmapped) areas
+
+
+controller_server:
+  ros__parameters:
+    controller_plugins: ["FollowPath"]  # Load the FollowPath controller plugin
+    FollowPath:
+      plugin: "nav2_regulated_pure_pursuit_controller/RegulatedPurePursuitController"  # Controller type for ackermann steering
+      use_velocity_scaled_lookahead_dist: true   # Scale lookahead distance with speed
+      lookahead_dist: 0.6                        # Default lookahead distance (m)
+      min_lookahead_dist: 0.4                    # Minimum lookahead distance
+      max_lookahead_dist: 1.0                    # Maximum lookahead distance
+      lookahead_time: 1.5                        # Time-based lookahead instead of fixed distance
+      max_angular_accel: 3.2                     # Limits how quickly car turns (rad/s²)
+      use_rotate_to_heading: false               # Disable in-place rotation (Ackermann can’t rotate)
+      transform_tolerance: 0.3                   # Acceptable TF delay (s)
+      desired_linear_vel: 0.6                    # Desired cruising speed (m/s)
+
+
+bt_navigator:
+  ros__parameters:
+    default_nav_to_pose_bt_xml: "navigate_w_replanning_and_recovery.xml"
+
+behavior_server:
+  ros__parameters:
+    progress_checker_plugin: "nav2_controller::SimpleProgressChecker"
