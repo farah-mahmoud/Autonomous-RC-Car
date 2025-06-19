@@ -43,6 +43,15 @@ ros2 launch race_it rplidar.launch.py
 We still have power issues so you have to randomly plug/unplug lidar and try the 2 commands till success  
 Consider butying a good adapter and a power bank and also a reliabe micro USB cable for to make it work  
 
+```bash
+ros2 run rf2o_laser_odometry_ros2 rf2o_laser_odometry_node \
+  --ros-args \
+    -p laser_scan_topic:=/scan \
+    -p base_frame_id:=base_link \
+    -p odom_frame_id:=odom \
+    -p freq:=20.0
+```
+
 #### Then start SLAM
 ```bash
 ros2 launch race_it online_asynch_launch.py
