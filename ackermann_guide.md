@@ -44,23 +44,18 @@ We still have power issues so you have to randomly plug/unplug lidar and try the
 Consider butying a good adapter and a power bank and also a reliabe micro USB cable for to make it work  
 
 ```bash
-ros2 run rf2o_laser_odometry_ros2 rf2o_laser_odometry_node \
-  --ros-args \
-    -p laser_scan_topic:=/scan \
-    -p base_frame_id:=base_link \
-    -p odom_frame_id:=odom \
-    -p freq:=20.0
+ros2 launch rf2o_laser_odometry rf2o_laser_odometry.launch.py 
 ```
 
 #### Then start SLAM
 ```bash
-ros2 launch race_it online_asynch_launch.py
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/articubot_one/config/mapper_params_online_async.yaml use_sim_time:=false
 ```
 once you finish save the map
 ### To save the map inside folder (maps) to use it again for navigation
 
 ```bash
-ros2 run nav2_map_server map_saver_cli -f ~/farah_ws/src/maps/my_map
+ros2 run nav2_map_server map_saver_cli -f ~/farah_ws/src/race_it/maps/my_map
 ````
 
 #### To record SLAM
