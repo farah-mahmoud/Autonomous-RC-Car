@@ -55,7 +55,7 @@ once you finish save the map
 ### To save the map inside folder (maps) to use it again for navigation
 
 ```bash
-ros2 run nav2_map_server map_saver_cli -f ~/farah_ws/src/race_it/maps/my_map
+ros2 run nav2_map_server map_saver_cli -f ~/nav/src/nav_ackermann/maps/my_map
 ````
 
 #### To record SLAM
