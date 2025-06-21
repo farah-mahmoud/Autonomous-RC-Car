@@ -46,6 +46,10 @@ Consider butying a good adapter and a power bank and also a reliabe micro USB ca
 ```bash
 ros2 launch rf2o_laser_odometry rf2o_laser_odometry.launch.py 
 ```
+for sensor fusion (Lidar + imu):
+```bash
+ros2 launch race_it ekf_launch.py
+```
 
 #### Then start SLAM
 ```bash
