@@ -8,7 +8,20 @@
   <img src="media/VID-20250627-WA0000-ezgif.com-optimize.gif" width="400px">
 </p>
 
+---
 
+##  Table of Contents
+
+- [Project Overview](#project-overview)
+- [Objectives & Features](#objectives--features)
+- [Technologies Used](#technologies-used)
+- [Hardware Components](#hardware-components)
+- [How to Run the Project](#how-to-run-the-project)
+- [Media](#media)
+- [About the Team – Big Hero 6](#about-the-team--big-hero-6)
+- [License](#license)
+
+---
 
 ## Project Overview
 
