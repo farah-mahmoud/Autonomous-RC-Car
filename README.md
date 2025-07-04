@@ -1,14 +1,14 @@
 
 # Autonomous RC Car – Graduation Project (2025)
 
-> A smart autonomous RC car that integrates LiDAR, camera, GPS, and IMU with AI-based perception, SLAM, obstacle avoidance, and closed-loop control using ROS 2. Built by the *Big Hero 6* team at Cairo University.
+> A smart autonomous RC car that integrates LiDAR, camera, and IMU with AI-based perception, SLAM, obstacle avoidance, and closed-loop control using ROS 2. Built by the *Big Hero 6* team at Cairo University.
 
 ---
-![demo_video](media/VID-20250627-WA0000.mp4)
+![demo_video](media/VID-20250627-WA0000-ezgif.com-optimize.gif)
 
 ## Project Overview
 
-This project is centered around the development of an **Autonomous RC Car**. It harnesses cutting-edge technologies such as **LiDAR**, **camera**, **GPS**, and **IMU** to enable fully autonomous navigation.
+This project is centered around the development of an **Autonomous RC Car**. It harnesses cutting-edge technologies such as **LiDAR**, **camera**, and **IMU** to enable fully autonomous navigation.
 
 By integrating these advanced sensors with robust software algorithms for **object detection**, **path planning**, and **real-time decision-making**, the car is capable of perceiving its environment, understanding complex road scenarios, and navigating safely.
 
@@ -128,7 +128,6 @@ ros2 launch yolov5_ros2 yolov5_ros2_node.launch.py \
   weights:='yolov5s.pt'
 
 cd ~/nasser_ws
-colcon build --symlink-install
 source install/setup.bash
 ros2 run stop_sign_gpio stop_sign_gpio_node
 
