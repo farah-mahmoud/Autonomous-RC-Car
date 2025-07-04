@@ -5,8 +5,9 @@
 
 ---
 <p align="center">
-  <img src="media/VID-20250627-WA0000-ezgif.com-optimize.gif">
+  <img src="media/VID-20250627-WA0000-ezgif.com-optimize.gif" width="400px">
 </p>
+
 
 
 ## Project Overview
