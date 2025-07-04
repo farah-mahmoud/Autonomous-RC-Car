@@ -17,8 +17,8 @@
 - [Technologies Used](#technologies-used)
 - [Hardware Components](#hardware-components)
 - [How to Run the Project](#how-to-run-the-project)
-- [Media](#media)
-- [About the Team – Big Hero 6](#about-the-team--big-hero-6)
+- [Meet the Team – Big Hero 6](#meet-the-team--big-hero-6)
+- [Graduation Project Book](#Graduation-Project-Book)
 - [License](#license)
 
 ---
