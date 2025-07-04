@@ -1,65 +1,170 @@
-# Project Overview
-This project is centered around the development of an Autonomous RC Car.  
-The project aims to harness cutting-edge technologies such as LiDAR, cameras, GPS, and IMU to create a fully autonomous navigation system.  
-By integrating these advanced sensors with robust software algorithms for object detection, path planning, and real-time decision-making, the car will be capable of perceiving its environment, understanding complex road scenarios, and navigating safely.  
-The project involves several innovative features including SLAM (Simultaneous Localization and Mapping), dynamic obstacle avoidance, and closed-loop control systems for precise maneuvering. Our team also employs simulation tools like Gazebo and RViz to develop and test algorithms in a virtual environment before real-world implementation.  
-This ambitious project not only showcases the application of modern robotics and autonomous driving technology but also aims to contribute to the field by exploring new methodologies and enhancing existing ones.
 
-# Objectives and Features
-- **Autonomous Navigation:** The RC car should have the ability to independently navigate realworld roads and reach its designated destination without manual intervention.
-- **Localization and Mapping:** The car will use its sensors and actuators to map the environment, providing a detailed representation of the road, including obstacles, and generating a simulation for navigation.
-- **Ostacle Avoidance:** The car should detect both static and dynamic obstacles using its sensors and avoid them through software tools like ROS (Robot Operating System).
-- **Object Detection:** Equipped with a camera sensor, the car will identify objects in its path and respond accordingly, such as avoiding the object or stopping in case of an emergency.
+# Autonomous RC Car – Graduation Project (2025)
 
-# Technologies used
-- **Object Detection:** YOLO (You Only Look Once) algorithm for real-time object detection and avoidance.
-- **SLAM:** For accurate mapping and localization. 
-- **Path Planning:** Algorithms: like A* and Dijkstra's for determining the best routes. 
-- **Simulation Tools:** Gazebo and RViz to test and visualize the system in a controlled environment. 
-- **Closed-Loop System:** Uses feedback from sensors for speed control, direction monitoring, and ensuring smooth navigation.
+> A smart autonomous RC car that integrates LiDAR, camera, GPS, and IMU with AI-based perception, SLAM, obstacle avoidance, and closed-loop control using ROS 2. Built by the *Big Hero 6* team at Cairo University.
 
-![Gazebo](https://www.clearpathrobotics.com/assets/guides/kinetic/warthog/_images/warthog_gazebo.png)
-![object detection](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/1446e76-f181-6047-4e73-8d8ba3c6a50e_object_detection_1.webp)
+---
 
-# How to run the project
-- Refer to the CheatSheets directory that contains all about the simulation and hardware configuration to get started with the rc car.  
-  - **Simulation.md** to launch *gazebo* alongside *rviz2* and to implement *SLAM* and *Navigation*.  
-  - **joystick.md** to use the *joystick* to move your robot instead of using the keyboard.  
-- Refer to the **dev_ws** which contains all the source code for the simulation files.  
-- Refer to **docs** directory to find all setups and learning phase tutorials.  
+## Project Overview
 
-# About the team **Big Hero 6** 
+This project is centered around the development of an **Autonomous RC Car**. It harnesses cutting-edge technologies such as **LiDAR**, **camera**, **GPS**, and **IMU** to enable fully autonomous navigation.
 
-## Team Members
+By integrating these advanced sensors with robust software algorithms for **object detection**, **path planning**, and **real-time decision-making**, the car is capable of perceiving its environment, understanding complex road scenarios, and navigating safely.
 
-We are the *Big Hero 6* Team from the *Faculty of Engineering, Cairo University, Electrical Power Department* working on the development of an autonomous RC car for our 2025 graduation project. Our team consists of passionate and dedicated individuals with expertise in various fields that are essential to the successful implementation of this project.
+The project incorporates:
+- SLAM (Simultaneous Localization and Mapping)
+- Dynamic obstacle avoidance
+- Closed-loop control systems
+- Simulation & testing in Gazebo + RViz
 
-### Meet our Team:
+This ambitious project not only showcases modern robotics and autonomous driving, but also contributes methodologically to the field by improving on existing solutions.
 
-- **Noureldeen Emad** – [Team Leader]
+---
 
+## Objectives & Features
 
-- **Ahmed Nasser**
+- **Autonomous Navigation:**  
+  Navigate real-world roads and reach destinations without manual control.
 
-  
-- **Eslam Gamal**
+- **Localization & Mapping:**  
+  Map the environment using sensors, build accurate maps, and navigate through them in real-time.
 
+- **Obstacle Avoidance:**  
+  Detect and avoid static/dynamic obstacles using ROS and sensor data.
 
-- **Farah Mahmoud** [github](https://github.com/farah-mahmoud) / [linkedin](https://www.linkedin.com/in/farahmahmoud/)
+- **Object Detection:**  
+  Recognize objects and traffic signs using camera input and deep learning models.
 
+---
 
-- **Sama Khaled**
+## Technologies Used
 
+| Component           | Details                                                                 |
+|---------------------|-------------------------------------------------------------------------|
+| **Object Detection** | YOLOv5 – real-time vision-based object/traffic sign detection           |
+| **SLAM**             | SLAM Toolbox in ROS 2 – for localization and mapping                    |
+| **Path Planning**    | Algorithms like A* and Dijkstra's                                      |
+| **Control**          | Closed-loop feedback for motor speed, steering, and heading correction |
+| **Simulation**       | Gazebo + RViz2 for algorithm testing and visualization                  |
+| **Middleware**       | ROS 2 (Foxy on Pi, Humble on laptop)                                    |
 
-- **Yahia Mohamed**
+---
 
+## Hardware Components
 
-### Supervisors:
-- **Dr. Mahmoud El-Naggar** – [Prof. Cairo University, Faculty of Engineering, Electrical Power Dept.]
+- Raspberry Pi 4 – Edge computer running ROS 2 Foxy  
+- Arduino Uno – Low-level actuator control  
+- RPLiDAR A1 – For 2D mapping and obstacle detection  
+- Pi Camera v3 – For object detection  
+- MPU6050 IMU – For orientation tracking  
+- Brushed DC Motor + ESC – Drive system  
+- 180° Servo Motor – Ackermann steering  
+- Power Module – LiPo battery packs and regulators  
 
-- **Dr. Ahmed Lasheen** – [Assistant Prof. Cairo University, Faculty of Engineering, Electrical Power Dept.]
-  - Project Supervisors, providing guidance and expertise in autonomous systems and robotics.
+---
 
+## How to Run the Project
 
+All files and instructions are organized inside the repository.
 
-**Check out our project proposal for more** [Autonomous RC Car Graduation Project Proposal](https://drive.google.com/file/d/1CbgzzAHH4dYqfB2Jl7uqtO-rwBZz6TLr/view?usp=sharing)
+### Quick Start
+
+1. Go to the `CheatSheets/` directory:
+   - `Simulation.md`: Launch Gazebo + RViz2, run SLAM & Navigation
+
+2. Navigate to `dev_ws/`:
+   - Contains ROS 2 packages: URDF, navigation, perception, control, etc.
+
+3. Explore `docs/`:
+   - Setup guides, architecture overviews, and research notes
+
+### Useful Commands
+
+```bash
+# Launch simulation
+ros2 launch race_it hardware_launch.py
+
+# Inside farah_ws (make sure to build and source)
+# Launch on Raspberry Pi
+ros2 launch race_car_bringup bringup.launch.py
+
+# Launch laser scans
+ros2 launch race_it rplidar.launch.py
+
+# Launch odometry
+ros2 launch rf2o_laser_odometry rf2o_laser_odometry.launch.py
+
+# Teleop via keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+# SLAM
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/articubot_one/config/mapper_params_online_async.yaml use_sim_time:=false
+
+# Run object detection
+python3 detect_road_signs.py
+```
+
+---
+
+## Media
+
+### Demo Video
+
+Project Overview: [Insert YouTube link here]
+
+To upload a video:
+- Upload to YouTube or Google Drive and paste the link above.
+
+To embed a YouTube video preview image:
+
+```markdown
+[![Watch the video](http://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](http://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+```
+
+### Example Images
+
+| Simulation in Gazebo | Object Detection in Action |
+|----------------------|----------------------------|
+| ![Gazebo](https://www.clearpathrobotics.com/assets/guides/kinetic/warthog/_images/warthog_gazebo.png) | ![Object Detection](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/1446e76-f181-6047-4e73-8d8ba3c6a50e_object_detection_1.webp) |
+
+To use your own image:
+- Add it to a folder (e.g., `media/`) in your repo.
+- Link it using: `![My Image](media/image_name.jpg)`
+
+---
+
+## About the Team – Big Hero 6
+
+We are a group of senior students from Faculty of Engineering, Cairo University – Electrical Power Department, passionate about robotics and intelligent systems.
+
+### Team Members
+
+- [Noureldeen Emad](https://www.linkedin.com/in/nourelboghdady/)  
+- [Ahmed Nasser](https://www.linkedin.com/in/ahmed-nasser-42063b273/)
+- [Eslam Gamal](https://www.linkedin.com/in/eslamgamal7/)
+- [Farah Mahmoud](https://www.linkedin.com/in/farahmahmoud/)
+- [Sama Khaled](https://www.linkedin.com/in/sama-khaled-6b549b275/)
+- [Yahia Mohamed](https://www.linkedin.com/in/yehiasanusi/)
+
+### Supervisors
+
+- Dr. Mahmoud El-Naggar – Professor, Cairo University  
+- Dr. Ahmed Lasheen – Assistant Professor, Cairo University  
+
+Their guidance in control and autonomous systems has been essential to our project's success.
+
+### Sponsor
+
+- [Advansys](https://www.linkedin.com/company/advansys-esc/posts/?feedView=all) – For providing essential tools, mentorship, and technical support throughout the project
+
+---
+
+## Project Proposal
+
+[Autonomous RC Car Graduation Project Book](https://drive.google.com/file/d/1HDqRIhTk7gE69-a77daM7_l8JCDMjveK/view?usp=sharing)
+
+---
+
+## License
+
+This project is licensed under the MIT License – feel free to use, share, and build upon it.
