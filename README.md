@@ -4,7 +4,9 @@
 > A smart autonomous RC car that integrates LiDAR, camera, and IMU with AI-based perception, SLAM, obstacle avoidance, and closed-loop control using ROS 2. Built by the *Big Hero 6* team at Cairo University.
 
 ---
-![demo_video](media/VID-20250627-WA0000-ezgif.com-optimize.gif)
+<p align="center">
+  <img src="media/VID-20250627-WA0000-ezgif.com-optimize.gif" width="30%">
+</p>
 
 ## Project Overview
 
