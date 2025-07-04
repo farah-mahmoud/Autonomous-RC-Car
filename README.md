@@ -4,6 +4,7 @@
 > A smart autonomous RC car that integrates LiDAR, camera, GPS, and IMU with AI-based perception, SLAM, obstacle avoidance, and closed-loop control using ROS 2. Built by the *Big Hero 6* team at Cairo University.
 
 ---
+![demo_video](media/VID-20250627-WA0000.mp4)
 
 ## Project Overview
 
@@ -61,6 +62,10 @@ This ambitious project not only showcases modern robotics and autonomous driving
 - 180° Servo Motor – Ackermann steering  
 - Power Module – LiPo battery packs and regulators  
 
+| Side View | Top View |
+|----------------------|----------------------------|
+| ![side_view](media/1751475549894.jpg) | ![front_view](media/1751475549913.jpg) |
+
 ---
 
 ## How to Run the Project
@@ -81,14 +86,21 @@ All files and instructions are organized inside the repository.
 ### Useful Commands
 
 ```bash
+# for all Terminals 
+ssh -X pi@192.168.198.161
+# Password: 01145623392
+
 # Launch simulation
-ros2 launch race_it hardware_launch.py
+ros2 launch race_it rsp.launch.py
+
+# on dev_machine
+rviz2
 
 # Inside farah_ws (make sure to build and source)
 # Launch on Raspberry Pi
-ros2 launch race_car_bringup bringup.launch.py
+ros2 launch race_it hardware_launch.py
 
-# Launch laser scans
+# Launch laser scans (make sure rplidar is connected)
 ros2 launch race_it rplidar.launch.py
 
 # Launch odometry
@@ -100,42 +112,42 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 # SLAM
 ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/articubot_one/config/mapper_params_online_async.yaml use_sim_time:=false
 
+# To save the map inside folder (maps) to use it again for navigation
+ros2 run nav2_map_server map_saver_cli -f ~/farah_ws/src/race_it/maps/my_map
+
+# For navigation
+ros2 launch race_it nav2_bringup_launch.py
+
 # Run object detection
-python3 detect_road_signs.py
+vcgencmd get_camera
+ros2 run v4l2_camera v4l2_camera_node
+
+# Yolo
+ros2 launch yolov5_ros2 yolov5_ros2_node.launch.py \
+  sub_topic:='/image_raw' \
+  weights:='yolov5s.pt'
+
+cd ~/nasser_ws
+colcon build --symlink-install
+source install/setup.bash
+ros2 run stop_sign_gpio stop_sign_gpio_node
+
 ```
 
 ---
-
-## Media
-
-### Demo Video
-
-Project Overview: [Insert YouTube link here]
-
-To upload a video:
-- Upload to YouTube or Google Drive and paste the link above.
-
-To embed a YouTube video preview image:
-
-```markdown
-[![Watch the video](http://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](http://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-```
-
-### Example Images
 
 | Simulation in Gazebo | Object Detection in Action |
 |----------------------|----------------------------|
 | ![Gazebo](https://www.clearpathrobotics.com/assets/guides/kinetic/warthog/_images/warthog_gazebo.png) | ![Object Detection](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/1446e76-f181-6047-4e73-8d8ba3c6a50e_object_detection_1.webp) |
 
-To use your own image:
-- Add it to a folder (e.g., `media/`) in your repo.
-- Link it using: `![My Image](media/image_name.jpg)`
 
 ---
 
-## About the Team – Big Hero 6
+## Meet the Team – Big Hero 6
 
 We are a group of senior students from Faculty of Engineering, Cairo University – Electrical Power Department, passionate about robotics and intelligent systems.
+
+![team_advansys](media/advansys.jpg)
 
 ### Team Members
 
