@@ -170,7 +170,7 @@ Their guidance in control and autonomous systems has been essential to our proje
 
 ---
 
-## Project Proposal
+## Graduation Project Book
 
 [Autonomous RC Car Graduation Project Book](https://drive.google.com/file/d/1HDqRIhTk7gE69-a77daM7_l8JCDMjveK/view?usp=sharing)
 
